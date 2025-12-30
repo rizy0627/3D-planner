@@ -1,0 +1,4 @@
+source;share/rosmsg_tcp_bridge/local_setup.bash
+source;share/rosmsg_tcp_bridge/local_setup.dsv
+source;share/rosmsg_tcp_bridge/local_setup.sh
+source;share/rosmsg_tcp_bridge/local_setup.zsh

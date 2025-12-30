@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-4613e5ba4db2cf112d0e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "poscmd_2_odom",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "poscmd_2_odom::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-poscmd_2_odom-Release-d4d469481faf70243597.json",
+					"name" : "poscmd_2_odom",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "poscmd_2_odom_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-poscmd_2_odom_uninstall-Release-86440bf661be01a9ba85.json",
+					"name" : "poscmd_2_odom_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-0c2c432e1004394024b7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/poscmd_2_odom",
+		"source" : "/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/fake_drone"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

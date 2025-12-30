@@ -1,0 +1,2 @@
+Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/drone_detect': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake --build /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/drone_detect -- -j32 -l32
+Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/drone_detect' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake --build /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/drone_detect -- -j32 -l32

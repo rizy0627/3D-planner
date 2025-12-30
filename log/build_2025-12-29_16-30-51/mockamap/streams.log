@@ -1,0 +1,173 @@
+[0.027s] Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/mockamap': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/mockamap -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/mockamap
+[0.095s] -- The C compiler identification is GNU 11.4.0
+[0.157s] -- The CXX compiler identification is GNU 11.4.0
+[0.166s] -- Detecting C compiler ABI info
+[0.242s] -- Detecting C compiler ABI info - done
+[0.246s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.247s] -- Detecting C compile features
+[0.247s] -- Detecting C compile features - done
+[0.249s] -- Detecting CXX compiler ABI info
+[0.353s] -- Detecting CXX compiler ABI info - done
+[0.358s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.358s] -- Detecting CXX compile features
+[0.358s] -- Detecting CXX compile features - done
+[0.360s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.693s] -- Found Python3: /home/rizy/anaconda3/envs/myenv/bin/python3 (found version "3.10.19") found components: Interpreter 
+[0.770s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.798s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.836s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.843s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.848s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.858s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.870s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.902s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.904s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.918s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.930s] -- Looking for pthread.h
+[1.067s] -- Looking for pthread.h - found
+[1.068s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.238s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.239s] -- Found Threads: TRUE  
+[1.288s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[1.354s] -- Checking for module 'eigen3'
+[1.386s] --   Found eigen3, version 3.4.0
+[1.451s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.452s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.500s] -- Checking for module 'flann'
+[1.528s] --   Found flann, version 1.9.1
+[1.632s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.633s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[3.331s] -- Checking for module 'libusb-1.0'
+[3.355s] --   Found libusb-1.0, version 1.0.25
+[3.428s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.430s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.532s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.758s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.774s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.784s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.107s] -- Found Qhull version 8.0.2
+[4.353s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.762s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[4.768s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[4.768s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[4.772s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[4.772s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[4.772s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[4.777s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[4.777s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[4.777s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[4.777s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[4.777s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[4.777s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[4.777s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[4.778s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[4.779s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[4.780s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[4.785s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[4.785s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[4.785s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[4.785s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[4.786s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[4.786s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[4.787s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[4.794s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[4.796s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[4.849s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.851s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.851s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.960s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[4.980s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[5.010s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time 
+[5.015s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.235s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.235s] -- Configured cppcheck include dirs: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/mockamap/include/mockamap
+[5.235s] -- Configured cppcheck exclude dirs and/or files: 
+[5.235s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.235s] -- Added test 'lint_cmake' to check CMake code style
+[5.237s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.239s] -- Added test 'uncrustify' to check C / C++ code style
+[5.239s] -- Configured uncrustify additional arguments: 
+[5.241s] -- Added test 'xmllint' to check XML markup files
+[5.242s] -- Configuring done
+[5.324s] [33mCMake Warning at CMakeLists.txt:53 (add_executable):
+[5.324s]   Cannot generate a safe runtime search path for target mockamap_node because
+[5.324s]   files in some directories may conflict with libraries in implicit
+[5.324s]   directories:
+[5.324s] 
+[5.324s]     runtime library [libpng16.so.16] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.324s]       /home/rizy/anaconda3/lib
+[5.324s]     runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.324s]       /home/rizy/anaconda3/lib
+[5.324s]     runtime library [libfreetype.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.324s]       /home/rizy/anaconda3/lib
+[5.324s]     runtime library [libX11.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.324s]       /home/rizy/anaconda3/lib
+[5.324s]     runtime library [libQt5OpenGL.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.324s]       /home/rizy/anaconda3/lib
+[5.324s]     runtime library [libQt5Widgets.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.325s]       /home/rizy/anaconda3/lib
+[5.325s]     runtime library [libQt5Gui.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.325s]       /home/rizy/anaconda3/lib
+[5.325s]     runtime library [libEGL.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.325s]       /home/rizy/anaconda3/lib
+[5.325s]     runtime library [libGL.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.325s]       /home/rizy/anaconda3/lib
+[5.325s]     runtime library [libQt5Core.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.325s]       /home/rizy/anaconda3/lib
+[5.325s]     runtime library [libtbb.so.12] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.325s]       /home/rizy/anaconda3/lib
+[5.325s] 
+[5.325s]   Some of these libraries may not be found correctly.
+[5.325s] 
+[5.325s] [0m
+[5.325s] [33mCMake Warning at CMakeLists.txt:53 (add_executable):
+[5.325s]   Cannot generate a safe dependent library path for target mockamap_node
+[5.325s]   because files in some directories may conflict with libraries in implicit
+[5.325s]   directories:
+[5.325s] 
+[5.325s]     runtime library [libEGL.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.325s]       /home/rizy/anaconda3/lib
+[5.325s]     runtime library [libGL.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.325s]       /home/rizy/anaconda3/lib
+[5.325s] 
+[5.326s]   Some of these libraries may not be found correctly.
+[5.326s] 
+[5.326s] [0m
+[5.329s] -- Generating done
+[5.359s] -- Build files have been written to: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/mockamap
+[5.419s] Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/mockamap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/mockamap -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/mockamap
+[5.421s] Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/mockamap': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake --build /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/mockamap -- -j32 -l32
+[5.647s] [ 40%] [32mBuilding CXX object CMakeFiles/mockamap_node.dir/src/perlinnoise.cpp.o[0m
+[5.651s] [ 60%] [32mBuilding CXX object CMakeFiles/mockamap_node.dir/src/ces_randommap.cpp.o[0m
+[5.651s] [ 60%] [32mBuilding CXX object CMakeFiles/mockamap_node.dir/src/maps.cpp.o[0m
+[5.654s] [ 80%] [32mBuilding CXX object CMakeFiles/mockamap_node.dir/src/mockamap.cpp.o[0m
+[24.025s] [100%] [32m[1mLinking CXX executable mockamap_node[0m
+[24.701s] [100%] Built target mockamap_node
+[24.714s] Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/mockamap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake --build /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/mockamap -- -j32 -l32
+[24.717s] Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/mockamap': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake --install /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/mockamap
+[24.727s] -- Install configuration: "Release"
+[24.727s] -- Execute custom install script
+[24.728s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/mockamap/lib/mockamap/mockamap_node
+[24.742s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/mockamap/share/mockamap/launch/maze2d.launch.py
+[24.755s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/mockamap/share/mockamap/launch/maze3d.launch.py
+[24.767s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/mockamap/share/mockamap/launch/mockamap.launch.py
+[24.785s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/mockamap/share/mockamap/launch/perlin3d.launch.py
+[24.806s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/mockamap/share/mockamap/launch/post2d.launch.py
+[24.821s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/mockamap/share/mockamap/config/rviz.rviz
+[24.835s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/mockamap/share/ament_index/resource_index/package_run_dependencies/mockamap
+[24.852s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/mockamap/share/ament_index/resource_index/parent_prefix_path/mockamap
+[24.868s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/mockamap/share/mockamap/environment/ament_prefix_path.sh
+[24.889s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/mockamap/share/mockamap/environment/ament_prefix_path.dsv
+[24.905s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/mockamap/share/mockamap/environment/path.sh
+[24.919s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/mockamap/share/mockamap/environment/path.dsv
+[24.932s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/mockamap/share/mockamap/local_setup.bash
+[24.946s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/mockamap/share/mockamap/local_setup.sh
+[24.958s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/mockamap/share/mockamap/local_setup.zsh
+[24.969s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/mockamap/share/mockamap/local_setup.dsv
+[24.985s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/mockamap/share/mockamap/package.dsv
+[25.000s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/mockamap/share/ament_index/resource_index/packages/mockamap
+[25.012s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/mockamap/share/mockamap/cmake/ament_cmake_export_include_directories-extras.cmake
+[25.023s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/mockamap/share/mockamap/cmake/mockamapConfig.cmake
+[25.034s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/mockamap/share/mockamap/cmake/mockamapConfig-version.cmake
+[25.047s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/mockamap/share/mockamap/package.xml
+[25.061s] Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/mockamap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake --install /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/mockamap

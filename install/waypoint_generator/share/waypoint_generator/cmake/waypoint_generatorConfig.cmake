@@ -1,0 +1,1 @@
+/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/waypoint_generator/ament_cmake_core/waypoint_generatorConfig.cmake

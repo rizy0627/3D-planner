@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-29f51a92c31fdb09031e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "so3_quadrotor_simulator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "quadrotor_dynamics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quadrotor_dynamics-1931ae9c4ed8f1f5b28b.json",
+					"name" : "quadrotor_dynamics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "so3_quadrotor_simulator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-so3_quadrotor_simulator-f4877300f729c37f4fb9.json",
+					"name" : "so3_quadrotor_simulator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "so3_quadrotor_simulator_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-so3_quadrotor_simulator_uninstall-80b11bef2b64606d49b7.json",
+					"name" : "so3_quadrotor_simulator_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7d5c82f138cc5633b28f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/so3_quadrotor_simulator",
+		"source" : "/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/so3_quadrotor_simulator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

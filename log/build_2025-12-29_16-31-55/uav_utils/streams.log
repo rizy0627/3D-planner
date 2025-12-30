@@ -1,0 +1,32 @@
+[0.017s] Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/uav_utils': AMENT_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/cmake_utils:/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake --build /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/uav_utils -- -j32 -l32
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.078s] [ 66%] Built target gtest
+[0.078s] [ 66%] Built target gtest_main
+[0.089s] [35m[1mConsolidate compiler generated dependencies of target uav_utils_test[0m
+[0.116s] [100%] Built target uav_utils_test
+[0.136s] Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/uav_utils' returned '0': AMENT_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/cmake_utils:/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake --build /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/uav_utils -- -j32 -l32
+[0.140s] Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/uav_utils': AMENT_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/cmake_utils:/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake --install /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/uav_utils
+[0.146s] -- Install configuration: ""
+[0.147s] -- Execute custom install script
+[0.147s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/uav_utils/share/ament_index/resource_index/package_run_dependencies/uav_utils
+[0.147s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/uav_utils/share/ament_index/resource_index/parent_prefix_path/uav_utils
+[0.147s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/uav_utils/share/uav_utils/environment/ament_prefix_path.sh
+[0.147s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/uav_utils/share/uav_utils/environment/ament_prefix_path.dsv
+[0.147s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/uav_utils/share/uav_utils/environment/path.sh
+[0.147s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/uav_utils/share/uav_utils/environment/path.dsv
+[0.148s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/uav_utils/share/uav_utils/local_setup.bash
+[0.148s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/uav_utils/share/uav_utils/local_setup.sh
+[0.148s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/uav_utils/share/uav_utils/local_setup.zsh
+[0.148s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/uav_utils/share/uav_utils/local_setup.dsv
+[0.148s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/uav_utils/share/uav_utils/package.dsv
+[0.159s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/uav_utils/share/ament_index/resource_index/packages/uav_utils
+[0.159s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/uav_utils/share/uav_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.159s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/uav_utils/share/uav_utils/cmake/uav_utilsConfig.cmake
+[0.159s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/uav_utils/share/uav_utils/cmake/uav_utilsConfig-version.cmake
+[0.159s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/uav_utils/share/uav_utils/package.xml
+[0.159s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/uav_utils/include/uav_utils
+[0.159s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/uav_utils/include/uav_utils/geometry_utils.h
+[0.159s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/uav_utils/include/uav_utils/utils.h
+[0.160s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/uav_utils/include/uav_utils/converters.h
+[0.163s] Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/uav_utils' returned '0': AMENT_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/cmake_utils:/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake --install /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/uav_utils

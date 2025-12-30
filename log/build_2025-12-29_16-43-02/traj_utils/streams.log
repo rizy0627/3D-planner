@@ -1,0 +1,302 @@
+[0.031s] Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/traj_utils': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/traj_utils -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils
+[0.052s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.153s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.157s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.174s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.176s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.179s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.184s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.190s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.207s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.208s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.222s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.246s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.253s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.273s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.284s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.322s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.591s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.596s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.596s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[0.703s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.709s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.718s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.825s] -- Found Qhull version 8.0.2
+[0.937s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.049s] -- looking for PCL_COMMON
+[1.049s] -- looking for PCL_KDTREE
+[1.049s] -- looking for PCL_OCTREE
+[1.049s] -- looking for PCL_SEARCH
+[1.049s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.049s] -- looking for PCL_FILTERS
+[1.049s] -- looking for PCL_2D
+[1.049s] -- looking for PCL_GEOMETRY
+[1.049s] -- looking for PCL_IO
+[1.049s] -- looking for PCL_FEATURES
+[1.049s] -- looking for PCL_ML
+[1.049s] -- looking for PCL_SEGMENTATION
+[1.049s] -- looking for PCL_VISUALIZATION
+[1.050s] -- looking for PCL_SURFACE
+[1.050s] -- looking for PCL_REGISTRATION
+[1.050s] -- looking for PCL_KEYPOINTS
+[1.050s] -- looking for PCL_TRACKING
+[1.050s] -- looking for PCL_RECOGNITION
+[1.050s] -- looking for PCL_STEREO
+[1.050s] -- looking for PCL_APPS
+[1.050s] -- looking for PCL_IN_HAND_SCANNER
+[1.050s] -- looking for PCL_MODELER
+[1.050s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.050s] -- looking for PCL_OUTOFCORE
+[1.050s] -- looking for PCL_PEOPLE
+[1.256s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.555s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.692s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.705s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.723s] -- Using PYTHON_EXECUTABLE: /home/rizy/anaconda3/envs/myenv/bin/python3
+[1.723s] -- Using PYTHON_INCLUDE_DIRS: /home/rizy/anaconda3/envs/myenv/include/python3.10
+[1.723s] -- Using PYTHON_LIBRARIES: /home/rizy/anaconda3/envs/myenv/lib/libpython3.10.so
+[1.895s] -- Using numpy include directory: /home/rizy/.local/lib/python3.10/site-packages/numpy/core/include
+[1.903s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.917s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.917s] -- Configured cppcheck include dirs: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/traj_utils/include
+[1.918s] -- Configured cppcheck exclude dirs and/or files: 
+[1.918s] -- Added test 'lint_cmake' to check CMake code style
+[1.922s] -- Added test 'uncrustify' to check C / C++ code style
+[1.922s] -- Configured uncrustify additional arguments: 
+[1.922s] -- Added test 'xmllint' to check XML markup files
+[1.923s] -- Configuring done
+[1.944s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:166 (add_library):
+[1.944s]   Cannot generate a safe runtime search path for target
+[1.944s]   traj_utils__rosidl_generator_py because files in some directories may
+[1.944s]   conflict with libraries in implicit directories:
+[1.944s] 
+[1.944s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.944s]       /home/rizy/anaconda3/envs/myenv/lib
+[1.945s] 
+[1.945s]   Some of these libraries may not be found correctly.
+[1.945s] Call Stack (most recent call first):
+[1.945s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.945s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.945s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[1.945s] 
+[1.945s] [0m
+[1.947s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+[1.947s]   Cannot generate a safe runtime search path for target
+[1.947s]   traj_utils__rosidl_typesupport_fastrtps_c__pyext because files in some
+[1.947s]   directories may conflict with libraries in implicit directories:
+[1.947s] 
+[1.947s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.947s]       /home/rizy/anaconda3/envs/myenv/lib
+[1.947s] 
+[1.947s]   Some of these libraries may not be found correctly.
+[1.947s] Call Stack (most recent call first):
+[1.947s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.947s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.947s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[1.947s] 
+[1.947s] [0m
+[1.949s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+[1.949s]   Cannot generate a safe runtime search path for target
+[1.949s]   traj_utils__rosidl_typesupport_introspection_c__pyext because files in some
+[1.949s]   directories may conflict with libraries in implicit directories:
+[1.949s] 
+[1.949s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.949s]       /home/rizy/anaconda3/envs/myenv/lib
+[1.949s] 
+[1.949s]   Some of these libraries may not be found correctly.
+[1.949s] Call Stack (most recent call first):
+[1.949s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.949s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.949s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[1.949s] 
+[1.949s] [0m
+[1.951s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+[1.951s]   Cannot generate a safe runtime search path for target
+[1.951s]   traj_utils__rosidl_typesupport_c__pyext because files in some directories
+[1.951s]   may conflict with libraries in implicit directories:
+[1.951s] 
+[1.951s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.951s]       /home/rizy/anaconda3/envs/myenv/lib
+[1.952s] 
+[1.952s]   Some of these libraries may not be found correctly.
+[1.952s] Call Stack (most recent call first):
+[1.952s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.952s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.952s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[1.952s] 
+[1.952s] [0m
+[1.965s] -- Generating done
+[1.980s] -- Build files have been written to: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/traj_utils
+[1.998s] Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/traj_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/traj_utils -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils
+[2.001s] Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/traj_utils': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake --build /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/traj_utils -- -j32 -l32
+[2.044s] [35m[1mConsolidate compiler generated dependencies of target traj_utils__rosidl_generator_c[0m
+[2.046s] [35m[1mConsolidate compiler generated dependencies of target traj_utils_lib[0m
+[2.051s] [  2%] Built target traj_utils__cpp
+[2.052s] [ 12%] Built target traj_utils__rosidl_generator_c
+[2.056s] [ 12%] Built target ament_cmake_python_symlink_traj_utils
+[2.059s] [35m[1mConsolidate compiler generated dependencies of target traj_utils__rosidl_typesupport_cpp[0m
+[2.060s] [35m[1mConsolidate compiler generated dependencies of target traj_utils__rosidl_typesupport_introspection_c[0m
+[2.060s] [35m[1mConsolidate compiler generated dependencies of target traj_utils__rosidl_typesupport_c[0m
+[2.060s] [35m[1mConsolidate compiler generated dependencies of target traj_utils__rosidl_typesupport_introspection_cpp[0m
+[2.060s] [35m[1mConsolidate compiler generated dependencies of target traj_utils__rosidl_typesupport_fastrtps_cpp[0m
+[2.064s] [ 18%] Built target traj_utils_lib
+[2.066s] [35m[1mConsolidate compiler generated dependencies of target traj_utils__rosidl_typesupport_fastrtps_c[0m
+[2.071s] [ 28%] Built target traj_utils__rosidl_typesupport_c
+[2.071s] [ 38%] Built target traj_utils__rosidl_typesupport_introspection_c
+[2.071s] [ 48%] Built target traj_utils__rosidl_typesupport_cpp
+[2.071s] [ 58%] Built target traj_utils__rosidl_typesupport_fastrtps_cpp
+[2.072s] [ 68%] Built target traj_utils__rosidl_typesupport_introspection_cpp
+[2.077s] [ 78%] Built target traj_utils__rosidl_typesupport_fastrtps_c
+[2.091s] [ 78%] Built target traj_utils
+[2.118s] [ 80%] Built target traj_utils__py
+[2.138s] [35m[1mConsolidate compiler generated dependencies of target traj_utils__rosidl_generator_py[0m
+[2.156s] [ 88%] Built target traj_utils__rosidl_generator_py
+[2.164s] [35m[1mConsolidate compiler generated dependencies of target traj_utils__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.164s] [35m[1mConsolidate compiler generated dependencies of target traj_utils__rosidl_typesupport_introspection_c__pyext[0m
+[2.164s] [35m[1mConsolidate compiler generated dependencies of target traj_utils__rosidl_typesupport_c__pyext[0m
+[2.174s] [ 92%] Built target traj_utils__rosidl_typesupport_fastrtps_c__pyext
+[2.174s] [ 96%] Built target traj_utils__rosidl_typesupport_c__pyext
+[2.174s] [100%] Built target traj_utils__rosidl_typesupport_introspection_c__pyext
+[2.190s] running egg_info
+[2.198s] writing traj_utils.egg-info/PKG-INFO
+[2.198s] writing dependency_links to traj_utils.egg-info/dependency_links.txt
+[2.198s] writing top-level names to traj_utils.egg-info/top_level.txt
+[2.222s] reading manifest file 'traj_utils.egg-info/SOURCES.txt'
+[2.223s] writing manifest file 'traj_utils.egg-info/SOURCES.txt'
+[2.245s] [100%] Built target ament_cmake_python_build_traj_utils_egg
+[2.254s] Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/traj_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake --build /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/traj_utils -- -j32 -l32
+[2.256s] Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/traj_utils': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake --install /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/traj_utils
+[2.261s] -- Install configuration: "Release"
+[2.261s] -- Execute custom install script
+[2.261s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/ament_index/resource_index/rosidl_interfaces/traj_utils
+[2.261s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/bspline.h
+[2.261s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/data_disp.h
+[2.262s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__functions.h
+[2.262s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__struct.h
+[2.262s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__type_support.h
+[2.262s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__functions.h
+[2.262s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__struct.h
+[2.262s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__type_support.h
+[2.262s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__functions.h
+[2.262s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__struct.h
+[2.262s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__type_support.h
+[2.262s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/multi_bsplines.h
+[2.262s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/rosidl_generator_c__visibility_control.h
+[2.262s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/environment/library_path.sh
+[2.262s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/environment/library_path.dsv
+[2.263s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__rosidl_typesupport_fastrtps_c.h
+[2.263s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__rosidl_typesupport_fastrtps_c.h
+[2.263s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__rosidl_typesupport_fastrtps_c.h
+[2.263s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.263s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/bspline.hpp
+[2.263s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/data_disp.hpp
+[2.263s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__builder.hpp
+[2.263s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__struct.hpp
+[2.263s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__traits.hpp
+[2.263s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__type_support.hpp
+[2.264s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__builder.hpp
+[2.264s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__struct.hpp
+[2.264s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__traits.hpp
+[2.264s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__type_support.hpp
+[2.264s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__builder.hpp
+[2.264s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__struct.hpp
+[2.264s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__traits.hpp
+[2.264s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__type_support.hpp
+[2.264s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/multi_bsplines.hpp
+[2.264s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.264s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__rosidl_typesupport_fastrtps_cpp.hpp
+[2.264s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__rosidl_typesupport_fastrtps_cpp.hpp
+[2.265s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__rosidl_typesupport_fastrtps_cpp.hpp
+[2.265s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.265s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__rosidl_typesupport_introspection_c.h
+[2.265s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__rosidl_typesupport_introspection_c.h
+[2.265s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__rosidl_typesupport_introspection_c.h
+[2.265s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.265s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__rosidl_typesupport_introspection_cpp.hpp
+[2.265s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__rosidl_typesupport_introspection_cpp.hpp
+[2.265s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__rosidl_typesupport_introspection_cpp.hpp
+[2.265s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/environment/pythonpath.sh
+[2.265s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/environment/pythonpath.dsv
+[2.266s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils-0.0.0-py3.10.egg-info/PKG-INFO
+[2.266s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.266s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.266s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils-0.0.0-py3.10.egg-info/top_level.txt
+[2.266s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/__init__.py
+[2.266s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/_traj_utils_s.ep.rosidl_typesupport_c.c
+[2.266s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/_traj_utils_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.266s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/_traj_utils_s.ep.rosidl_typesupport_introspection_c.c
+[2.266s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/libtraj_utils__rosidl_generator_py.so
+[2.267s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/msg/__init__.py
+[2.267s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/msg/_bspline.py
+[2.267s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/msg/_bspline_s.c
+[2.267s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/msg/_data_disp.py
+[2.267s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/msg/_data_disp_s.c
+[2.267s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/msg/_multi_bsplines.py
+[2.267s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/msg/_multi_bsplines_s.c
+[2.267s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/traj_utils_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.267s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/traj_utils_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.267s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/traj_utils_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.267s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/traj_utils_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.267s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/traj_utils_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.268s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/traj_utils_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.268s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/msg/Bspline.idl
+[2.268s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/msg/DataDisp.idl
+[2.268s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/msg/MultiBsplines.idl
+[2.268s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/msg/Bspline.msg
+[2.268s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/msg/DataDisp.msg
+[2.268s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/msg/MultiBsplines.msg
+[2.268s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/lib/libtraj_utils_lib.so
+[2.268s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/plan_container.hpp
+[2.268s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/planning_visualization.h
+[2.268s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/polynomial_traj.h
+[2.268s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/ament_index/resource_index/package_run_dependencies/traj_utils
+[2.269s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/ament_index/resource_index/parent_prefix_path/traj_utils
+[2.269s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/environment/ament_prefix_path.sh
+[2.269s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/environment/ament_prefix_path.dsv
+[2.269s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/environment/path.sh
+[2.269s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/environment/path.dsv
+[2.269s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/local_setup.bash
+[2.269s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/local_setup.sh
+[2.269s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/local_setup.zsh
+[2.269s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/local_setup.dsv
+[2.269s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/package.dsv
+[2.276s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/ament_index/resource_index/packages/traj_utils
+[2.276s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/cmake/rosidl_cmake-extras.cmake
+[2.276s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.276s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.276s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/cmake/ament_cmake_export_libraries-extras.cmake
+[2.276s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/cmake/ament_cmake_export_targets-extras.cmake
+[2.276s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.276s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.276s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/cmake/traj_utilsConfig.cmake
+[2.277s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/cmake/traj_utilsConfig-version.cmake
+[2.277s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/package.xml
+[2.277s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/lib/libtraj_utils__rosidl_generator_c.so
+[2.277s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/lib/libtraj_utils__rosidl_typesupport_fastrtps_c.so
+[2.277s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/lib/libtraj_utils__rosidl_typesupport_fastrtps_cpp.so
+[2.277s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/lib/libtraj_utils__rosidl_typesupport_introspection_c.so
+[2.277s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/lib/libtraj_utils__rosidl_typesupport_c.so
+[2.278s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/lib/libtraj_utils__rosidl_typesupport_introspection_cpp.so
+[2.278s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/lib/libtraj_utils__rosidl_typesupport_cpp.so
+[2.298s] Listing '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils'...
+[2.298s] Compiling '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/__init__.py'...
+[2.298s] Listing '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/msg'...
+[2.302s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/lib/libtraj_utils__rosidl_generator_py.so
+[2.302s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/cmake/export_traj_utils__rosidl_generator_cExport.cmake
+[2.302s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/cmake/export_traj_utils__rosidl_generator_cExport-release.cmake
+[2.302s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/cmake/export_traj_utils__rosidl_typesupport_fastrtps_cExport.cmake
+[2.302s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/cmake/export_traj_utils__rosidl_typesupport_fastrtps_cExport-release.cmake
+[2.302s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/cmake/export_traj_utils__rosidl_generator_cppExport.cmake
+[2.302s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/cmake/export_traj_utils__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.302s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/cmake/export_traj_utils__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[2.302s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/cmake/traj_utils__rosidl_typesupport_introspection_cExport.cmake
+[2.302s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/cmake/traj_utils__rosidl_typesupport_introspection_cExport-release.cmake
+[2.302s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/cmake/traj_utils__rosidl_typesupport_cExport.cmake
+[2.302s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/cmake/traj_utils__rosidl_typesupport_cExport-release.cmake
+[2.302s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/cmake/traj_utils__rosidl_typesupport_introspection_cppExport.cmake
+[2.302s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/cmake/traj_utils__rosidl_typesupport_introspection_cppExport-release.cmake
+[2.302s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/cmake/traj_utils__rosidl_typesupport_cppExport.cmake
+[2.303s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/cmake/traj_utils__rosidl_typesupport_cppExport-release.cmake
+[2.303s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/cmake/export_traj_utils__rosidl_generator_pyExport.cmake
+[2.303s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/cmake/export_traj_utils__rosidl_generator_pyExport-release.cmake
+[2.307s] Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/traj_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake --install /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/traj_utils

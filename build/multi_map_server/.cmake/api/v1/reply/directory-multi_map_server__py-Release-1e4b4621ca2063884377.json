@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "multi_map_server__py",
+		"source" : "/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/multi_map_server/multi_map_server__py"
+	}
+}

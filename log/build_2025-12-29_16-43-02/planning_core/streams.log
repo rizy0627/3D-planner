@@ -1,0 +1,27 @@
+[0.036s] Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/planning_core': CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake /home/rizy/planner/3d-navi/3d-navi-ros2_v1/PCT_planner_re/planner/lib -DCMAKE_INSTALL_PREFIX=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/planning_core
+[0.054s] -- GTSAM include directory:  /home/rizy/planner/3d-navi/3d-navi-ros2_v1/PCT_planner_re/planner/lib/3rdparty/gtsam-4.1.1/install/lib/cmake/GTSAM/../../../include
+[0.058s] -- pybind11 v2.11.0 dev1
+[0.092s] -- Configuring done
+[0.120s] -- Generating done
+[0.125s] -- Build files have been written to: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/planning_core
+[0.128s] Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/planning_core' returned '0': CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake /home/rizy/planner/3d-navi/3d-navi-ros2_v1/PCT_planner_re/planner/lib -DCMAKE_INSTALL_PREFIX=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/planning_core
+[0.130s] Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/planning_core': CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake --build /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/planning_core -- -j32 -l32
+[0.159s] [35m[1mConsolidate compiler generated dependencies of target map_manager[0m
+[0.159s] [35m[1mConsolidate compiler generated dependencies of target a_star_search[0m
+[0.163s] [35m[1mConsolidate compiler generated dependencies of target common_smoothing[0m
+[0.169s] [  4%] Built target map_manager
+[0.169s] [  8%] Built target a_star_search
+[0.176s] [35m[1mConsolidate compiler generated dependencies of target py_map_manager[0m
+[0.176s] [35m[1mConsolidate compiler generated dependencies of target a_star[0m
+[0.181s] [ 45%] Built target common_smoothing
+[0.187s] [ 50%] Built target a_star
+[0.188s] [ 54%] Built target py_map_manager
+[0.197s] [35m[1mConsolidate compiler generated dependencies of target gpmp_optimizer[0m
+[0.258s] [ 86%] Built target gpmp_optimizer
+[0.266s] [35m[1mConsolidate compiler generated dependencies of target ele_planner_lib[0m
+[0.267s] [35m[1mConsolidate compiler generated dependencies of target traj_opt[0m
+[0.278s] [ 91%] Built target ele_planner_lib
+[0.285s] [ 95%] Built target traj_opt
+[0.287s] [35m[1mConsolidate compiler generated dependencies of target ele_planner[0m
+[0.305s] [100%] Built target ele_planner
+[0.320s] Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/planning_core' returned '0': CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake --build /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/planning_core -- -j32 -l32

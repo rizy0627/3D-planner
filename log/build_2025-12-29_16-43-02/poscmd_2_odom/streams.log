@@ -1,0 +1,61 @@
+[0.016s] Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/poscmd_2_odom': AMENT_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) LD_LIBRARY_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/fake_drone -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/poscmd_2_odom
+[0.028s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.124s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.129s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.147s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.148s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.151s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.157s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.166s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.184s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.185s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.194s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.224s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.245s] -- Found quadrotor_msgs: 0.0.0 (/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/cmake)
+[0.267s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.327s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.328s] -- Configured cppcheck include dirs: 
+[0.328s] -- Configured cppcheck exclude dirs and/or files: 
+[0.328s] -- Added test 'lint_cmake' to check CMake code style
+[0.328s] -- Added test 'uncrustify' to check C / C++ code style
+[0.328s] -- Configured uncrustify additional arguments: 
+[0.328s] -- Added test 'xmllint' to check XML markup files
+[0.329s] -- Configuring done
+[0.335s] [33mCMake Warning at CMakeLists.txt:38 (add_executable):
+[0.335s]   Cannot generate a safe runtime search path for target poscmd_2_odom because
+[0.335s]   files in some directories may conflict with libraries in implicit
+[0.335s]   directories:
+[0.335s] 
+[0.335s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[0.335s]       /home/rizy/anaconda3/envs/myenv/lib
+[0.335s] 
+[0.335s]   Some of these libraries may not be found correctly.
+[0.335s] 
+[0.335s] [0m
+[0.336s] -- Generating done
+[0.338s] -- Build files have been written to: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/poscmd_2_odom
+[0.345s] Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/poscmd_2_odom' returned '0': AMENT_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) LD_LIBRARY_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/fake_drone -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/poscmd_2_odom
+[0.346s] Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/poscmd_2_odom': AMENT_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) LD_LIBRARY_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/poscmd_2_odom -- -j32 -l32
+[0.388s] [35m[1mConsolidate compiler generated dependencies of target poscmd_2_odom[0m
+[0.403s] [100%] Built target poscmd_2_odom
+[0.412s] Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/poscmd_2_odom' returned '0': AMENT_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) LD_LIBRARY_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/poscmd_2_odom -- -j32 -l32
+[0.413s] Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/poscmd_2_odom': AMENT_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) LD_LIBRARY_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/poscmd_2_odom
+[0.419s] -- Install configuration: "Release"
+[0.419s] -- Execute custom install script
+[0.419s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/poscmd_2_odom/lib/poscmd_2_odom/poscmd_2_odom
+[0.419s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/poscmd_2_odom/share/ament_index/resource_index/package_run_dependencies/poscmd_2_odom
+[0.419s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/poscmd_2_odom/share/ament_index/resource_index/parent_prefix_path/poscmd_2_odom
+[0.420s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/poscmd_2_odom/share/poscmd_2_odom/environment/ament_prefix_path.sh
+[0.420s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/poscmd_2_odom/share/poscmd_2_odom/environment/ament_prefix_path.dsv
+[0.420s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/poscmd_2_odom/share/poscmd_2_odom/environment/path.sh
+[0.420s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/poscmd_2_odom/share/poscmd_2_odom/environment/path.dsv
+[0.420s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/poscmd_2_odom/share/poscmd_2_odom/local_setup.bash
+[0.420s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/poscmd_2_odom/share/poscmd_2_odom/local_setup.sh
+[0.420s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/poscmd_2_odom/share/poscmd_2_odom/local_setup.zsh
+[0.420s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/poscmd_2_odom/share/poscmd_2_odom/local_setup.dsv
+[0.420s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/poscmd_2_odom/share/poscmd_2_odom/package.dsv
+[0.427s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/poscmd_2_odom/share/ament_index/resource_index/packages/poscmd_2_odom
+[0.427s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/poscmd_2_odom/share/poscmd_2_odom/cmake/poscmd_2_odomConfig.cmake
+[0.427s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/poscmd_2_odom/share/poscmd_2_odom/cmake/poscmd_2_odomConfig-version.cmake
+[0.427s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/poscmd_2_odom/share/poscmd_2_odom/package.xml
+[0.430s] Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/poscmd_2_odom' returned '0': AMENT_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) LD_LIBRARY_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/poscmd_2_odom

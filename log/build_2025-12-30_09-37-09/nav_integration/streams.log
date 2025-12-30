@@ -1,0 +1,20 @@
+[0.622s] Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/nav_integration': CONDA_PROMPT_MODIFIER=(myenv) PYTHONPATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/nav_integration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/nav_integration/build --no-deps symlink_data
+[0.732s] /home/rizy/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.732s]   warnings.warn(msg)
+[0.870s] running develop
+[1.013s] running egg_info
+[1.025s] writing nav_integration.egg-info/PKG-INFO
+[1.026s] writing dependency_links to nav_integration.egg-info/dependency_links.txt
+[1.026s] writing entry points to nav_integration.egg-info/entry_points.txt
+[1.026s] writing requirements to nav_integration.egg-info/requires.txt
+[1.026s] writing top-level names to nav_integration.egg-info/top_level.txt
+[1.045s] reading manifest file 'nav_integration.egg-info/SOURCES.txt'
+[1.046s] writing manifest file 'nav_integration.egg-info/SOURCES.txt'
+[1.059s] running build_ext
+[1.059s] Creating /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/lib/python3.10/site-packages/nav-integration.egg-link (link to .)
+[1.059s] Installing map_server script to /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/lib/nav_integration
+[1.059s] Installing simple_path_follower script to /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/lib/nav_integration
+[1.060s] 
+[1.060s] Installed /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/nav_integration
+[1.060s] running symlink_data
+[1.113s] Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/nav_integration' returned '0': CONDA_PROMPT_MODIFIER=(myenv) PYTHONPATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/nav_integration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/nav_integration/build --no-deps symlink_data

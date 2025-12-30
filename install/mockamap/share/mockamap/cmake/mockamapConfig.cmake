@@ -1,0 +1,1 @@
+/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/mockamap/ament_cmake_core/mockamapConfig.cmake

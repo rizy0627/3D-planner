@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f09714ba18898ee6925d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rosmsg_tcp_bridge",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bridge_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bridge_node-Release-a34631bb892998e1cf59.json",
+					"name" : "bridge_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosmsg_tcp_bridge_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosmsg_tcp_bridge_uninstall-Release-40117ce7cd474a45be02.json",
+					"name" : "rosmsg_tcp_bridge_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-bb89b787b9359bc0c435.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/rosmsg_tcp_bridge",
+		"source" : "/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/rosmsg_tcp_bridge"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

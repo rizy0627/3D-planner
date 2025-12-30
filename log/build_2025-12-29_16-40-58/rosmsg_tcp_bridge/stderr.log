@@ -1,0 +1,23 @@
+CMake Warning at CMakeLists.txt:44 (add_executable):
+  Cannot generate a safe runtime search path for target bridge_node because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/envs/myenv/lib
+
+  Some of these libraries may not be found correctly.
+
+
+/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/rosmsg_tcp_bridge/src/bridge_node.cpp: In function ‘int wait_connection_from_previous_drone(int, int&, int&)’:
+/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/rosmsg_tcp_bridge/src/bridge_node.cpp:118:51: warning: unused parameter ‘port’ [-Wunused-parameter]
+  118 | int wait_connection_from_previous_drone(const int port, int &server_fd, int &new_socket)
+      |                                         ~~~~~~~~~~^~~~
+/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/rosmsg_tcp_bridge/src/bridge_node.cpp: In function ‘int serializeStop(const std::shared_ptr<const std_msgs::msg::Empty_<std::allocator<void> > >&)’:
+/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/rosmsg_tcp_bridge/src/bridge_node.cpp:362:70: warning: unused parameter ‘msg’ [-Wunused-parameter]
+  362 | int serializeStop(const std::shared_ptr<const std_msgs::msg::Empty> &msg)
+      |                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/rosmsg_tcp_bridge/src/bridge_node.cpp: In function ‘int deserializeStop(std::shared_ptr<std_msgs::msg::Empty_<std::allocator<void> > >&)’:
+/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/rosmsg_tcp_bridge/src/bridge_node.cpp:483:60: warning: unused parameter ‘msg’ [-Wunused-parameter]
+  483 | int deserializeStop(std::shared_ptr<std_msgs::msg::Empty> &msg)
+      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~

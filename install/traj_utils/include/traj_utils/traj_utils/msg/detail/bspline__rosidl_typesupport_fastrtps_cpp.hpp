@@ -1,0 +1,1 @@
+/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/traj_utils/rosidl_typesupport_fastrtps_cpp/traj_utils/msg/detail/bspline__rosidl_typesupport_fastrtps_cpp.hpp

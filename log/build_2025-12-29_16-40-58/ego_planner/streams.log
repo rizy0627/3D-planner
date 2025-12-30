@@ -1,0 +1,617 @@
+[0.013s] Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/ego_planner': AMENT_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env:/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) LD_LIBRARY_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/lib:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/lib:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/lib:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/local/lib/python3.10/dist-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/lib/python3.10/site-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage -DPython3_EXECUTABLE=/usr/bin/python3 -Dfmt_DIR=/usr/lib/x86_64-linux-gnu/cmake/fmt -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/ego_planner
+[0.047s] -- The C compiler identification is GNU 11.4.0
+[0.090s] -- The CXX compiler identification is GNU 11.4.0
+[0.095s] -- Detecting C compiler ABI info
+[0.150s] -- Detecting C compiler ABI info - done
+[0.153s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.154s] -- Detecting C compile features
+[0.154s] -- Detecting C compile features - done
+[0.155s] -- Detecting CXX compiler ABI info
+[0.212s] -- Detecting CXX compiler ABI info - done
+[0.215s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.215s] -- Detecting CXX compile features
+[0.216s] -- Detecting CXX compile features - done
+[0.218s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.474s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.544s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.569s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.606s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.610s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.618s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.629s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.639s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.668s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.670s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.684s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.692s] -- Looking for pthread.h
+[0.753s] -- Looking for pthread.h - found
+[0.753s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.802s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.803s] -- Found Threads: TRUE  
+[0.844s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.850s] -- Found quadrotor_msgs: 0.0.0 (/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/cmake)
+[0.876s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.896s] -- Found plan_env: 0.0.0 (/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/share/plan_env/cmake)
+[0.897s] -- Found path_searching: 0.0.0 (/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/share/path_searching/cmake)
+[0.898s] -- Found bspline_opt: 0.0.0 (/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/share/bspline_opt/cmake)
+[0.899s] -- Found traj_utils: 0.0.0 (/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/share/traj_utils/cmake)
+[0.918s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.948s] -- Checking for module 'eigen3'
+[0.957s] --   Found eigen3, version 3.4.0
+[0.982s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.982s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.001s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[1.016s] -- Checking for module 'flann'
+[1.031s] --   Found flann, version 1.9.1
+[1.072s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.072s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.091s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[1.094s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[1.195s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[1.195s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[1.197s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[1.203s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.214s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[1.221s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[1.309s] -- Found X11: /usr/include   
+[1.309s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.365s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.365s] -- Looking for gethostbyname
+[1.418s] -- Looking for gethostbyname - found
+[1.418s] -- Looking for connect
+[1.465s] -- Looking for connect - found
+[1.465s] -- Looking for remove
+[1.512s] -- Looking for remove - found
+[1.512s] -- Looking for shmat
+[1.559s] -- Looking for shmat - found
+[1.560s] -- Looking for IceConnectionNumber in ICE
+[1.605s] -- Looking for IceConnectionNumber in ICE - found
+[1.663s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[1.663s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[1.665s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[1.665s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[1.674s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[1.677s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[1.679s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[1.682s] -- Found utf8cpp: /usr/include/utf8cpp  
+[1.742s] -- Checking for module 'libusb-1.0'
+[1.751s] --   Found libusb-1.0, version 1.0.25
+[1.779s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.780s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[1.780s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.825s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[1.825s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.825s] ** WARNING ** io features related to pcap will be disabled
+[1.923s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.927s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.930s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.037s] -- Found Qhull version 8.0.2
+[2.135s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.258s] -- looking for PCL_COMMON
+[2.260s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.260s] -- looking for PCL_KDTREE
+[2.261s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.261s] -- looking for PCL_OCTREE
+[2.261s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.262s] -- looking for PCL_SEARCH
+[2.263s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.263s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.263s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.263s] -- looking for PCL_FILTERS
+[2.265s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.265s] -- looking for PCL_2D
+[2.265s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.265s] -- looking for PCL_GEOMETRY
+[2.265s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.265s] -- looking for PCL_IO
+[2.266s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.266s] -- looking for PCL_FEATURES
+[2.267s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.267s] -- looking for PCL_ML
+[2.267s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.267s] -- looking for PCL_SEGMENTATION
+[2.268s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.268s] -- looking for PCL_VISUALIZATION
+[2.268s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.268s] -- looking for PCL_SURFACE
+[2.269s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.269s] -- looking for PCL_REGISTRATION
+[2.269s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.269s] -- looking for PCL_KEYPOINTS
+[2.270s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.270s] -- looking for PCL_TRACKING
+[2.270s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.270s] -- looking for PCL_RECOGNITION
+[2.271s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.271s] -- looking for PCL_STEREO
+[2.271s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.271s] -- looking for PCL_APPS
+[2.272s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.272s] -- looking for PCL_IN_HAND_SCANNER
+[2.272s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.272s] -- looking for PCL_MODELER
+[2.272s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.272s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.273s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.273s] -- looking for PCL_OUTOFCORE
+[2.273s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.273s] -- looking for PCL_PEOPLE
+[2.274s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.274s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[2.276s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[2.300s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.372s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.372s] -- Configured cppcheck include dirs: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include
+[2.372s] -- Configured cppcheck exclude dirs and/or files: 
+[2.372s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.373s] -- Added test 'lint_cmake' to check CMake code style
+[2.373s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.374s] -- Added test 'uncrustify' to check C / C++ code style
+[2.374s] -- Configured uncrustify additional arguments: 
+[2.374s] -- Added test 'xmllint' to check XML markup files
+[2.375s] -- Configuring done
+[2.422s] CMake Warning at CMakeLists.txt:50 (add_executable):
+[2.422s]   Cannot generate a safe runtime search path for target ego_planner_node
+[2.422s]   because files in some directories may conflict with libraries in implicit
+[2.422s]   directories:
+[2.422s] 
+[2.422s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.422s]       /home/rizy/anaconda3/envs/myenv/lib
+[2.422s]     runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.422s]       /home/rizy/anaconda3/envs/myenv/lib
+[2.422s]     runtime library [libX11.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.422s]       /home/rizy/anaconda3/envs/myenv/lib
+[2.422s] 
+[2.422s]   Some of these libraries may not be found correctly.
+[2.422s] 
+[2.422s] 
+[2.439s] CMake Warning at CMakeLists.txt:73 (add_executable):
+[2.439s]   Cannot generate a safe runtime search path for target traj_server because
+[2.439s]   files in some directories may conflict with libraries in implicit
+[2.439s]   directories:
+[2.439s] 
+[2.439s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.439s]       /home/rizy/anaconda3/envs/myenv/lib
+[2.439s]     runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.439s]       /home/rizy/anaconda3/envs/myenv/lib
+[2.439s]     runtime library [libX11.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.439s]       /home/rizy/anaconda3/envs/myenv/lib
+[2.439s] 
+[2.439s]   Some of these libraries may not be found correctly.
+[2.439s] 
+[2.439s] 
+[2.439s] -- Generating done
+[2.450s] -- Build files have been written to: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/ego_planner
+[2.467s] Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/ego_planner' returned '0': AMENT_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env:/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) LD_LIBRARY_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/lib:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/lib:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/lib:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/local/lib/python3.10/dist-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/lib/python3.10/site-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage -DPython3_EXECUTABLE=/usr/bin/python3 -Dfmt_DIR=/usr/lib/x86_64-linux-gnu/cmake/fmt -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/ego_planner
+[2.468s] Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/ego_planner': AMENT_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env:/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) LD_LIBRARY_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/lib:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/lib:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/lib:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/local/lib/python3.10/dist-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/lib/python3.10/site-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/ego_planner -- -j32 -l32
+[2.509s] [ 16%] Building CXX object CMakeFiles/ego_planner_node.dir/src/ego_planner_node.cpp.o
+[2.509s] [ 50%] Building CXX object CMakeFiles/ego_planner_node.dir/src/ego_replan_fsm.cpp.o
+[2.509s] [ 66%] Building CXX object CMakeFiles/traj_server.dir/src/traj_server.cpp.o
+[2.509s] [ 66%] Building CXX object CMakeFiles/ego_planner_node.dir/src/planner_manager.cpp.o
+[5.035s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/traj_server.cpp:27:60: warning: ‘traj_utils::msg::Bspline_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[5.035s]    27 | void bsplineCallback(traj_utils::msg::Bspline::ConstPtr msg)
+[5.036s]       |                                                            ^
+[5.036s] In file included from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/bspline.hpp:7,
+[5.036s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/traj_server.cpp:3:
+[5.036s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__struct.hpp:181:5: note: declared here
+[5.036s]   181 |     ConstPtr;
+[5.036s]       |     ^~~~~~~~
+[6.233s] In file included from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/include/path_searching/dyn_a_star.h:7,
+[6.233s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,
+[6.233s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/planner_manager.h:6,
+[6.233s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/planner_manager.cpp:2:
+[6.233s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/grid_map.h:208:79: warning: ‘sensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[6.233s]   208 |                          const geometry_msgs::msg::PoseStamped::ConstPtr &pose);
+[6.233s]       |                                                                               ^
+[6.233s] In file included from /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7,
+[6.233s]                  from /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40,
+[6.233s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/grid_map.h:6,
+[6.233s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/include/path_searching/dyn_a_star.h:7,
+[6.233s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,
+[6.233s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/planner_manager.h:6,
+[6.233s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/planner_manager.cpp:2:
+[6.233s] /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5: note: declared here
+[6.233s]   173 |     ConstPtr;
+[6.233s]       |     ^~~~~~~~
+[6.233s] In file included from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/include/path_searching/dyn_a_star.h:7,
+[6.233s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,
+[6.233s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/planner_manager.h:6,
+[6.233s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/planner_manager.cpp:2:
+[6.233s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/grid_map.h:208:79: warning: ‘geometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[6.234s]   208 |                          const geometry_msgs::msg::PoseStamped::ConstPtr &pose);
+[6.234s]       |                                                                               ^
+[6.234s] In file included from /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:7,
+[6.234s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/grid_map.h:7,
+[6.234s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/include/path_searching/dyn_a_star.h:7,
+[6.234s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,
+[6.234s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/planner_manager.h:6,
+[6.234s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/planner_manager.cpp:2:
+[6.234s] /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:115:5: note: declared here
+[6.234s]   115 |     ConstPtr;
+[6.234s]       |     ^~~~~~~~
+[6.234s] In file included from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/include/path_searching/dyn_a_star.h:7,
+[6.234s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,
+[6.234s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/planner_manager.h:6,
+[6.234s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/planner_manager.cpp:2:
+[6.234s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/grid_map.h:209:71: warning: ‘nav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[6.234s]   209 |   void extrinsicCallback(const nav_msgs::msg::Odometry::ConstPtr &odom);
+[6.234s]       |                                                                       ^
+[6.234s] In file included from /opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7,
+[6.234s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/grid_map.h:10,
+[6.234s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/include/path_searching/dyn_a_star.h:7,
+[6.234s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,
+[6.234s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/planner_manager.h:6,
+[6.234s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/planner_manager.cpp:2:
+[6.234s] /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:146:5: note: declared here
+[6.234s]   146 |     ConstPtr;
+[6.234s]       |     ^~~~~~~~
+[6.234s] In file included from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/include/path_searching/dyn_a_star.h:7,
+[6.234s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,
+[6.234s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/planner_manager.h:6,
+[6.234s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/planner_manager.cpp:2:
+[6.234s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/grid_map.h:210:117: warning: ‘sensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[6.234s]   210 |   void depthOdomCallback(const sensor_msgs::msg::Image::ConstPtr &img, const nav_msgs::msg::Odometry::ConstPtr &odom);
+[6.234s]       |                                                                                                                     ^
+[6.234s] In file included from /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7,
+[6.234s]                  from /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40,
+[6.234s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/grid_map.h:6,
+[6.234s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/include/path_searching/dyn_a_star.h:7,
+[6.234s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,
+[6.234s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/planner_manager.h:6,
+[6.234s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/planner_manager.cpp:2:
+[6.234s] /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5: note: declared here
+[6.234s]   173 |     ConstPtr;
+[6.234s]       |     ^~~~~~~~
+[6.234s] In file included from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/include/path_searching/dyn_a_star.h:7,
+[6.234s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,
+[6.235s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/planner_manager.h:6,
+[6.235s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/planner_manager.cpp:2:
+[6.235s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/grid_map.h:210:117: warning: ‘nav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[6.235s]   210 |   void depthOdomCallback(const sensor_msgs::msg::Image::ConstPtr &img, const nav_msgs::msg::Odometry::ConstPtr &odom);
+[6.235s]       |                                                                                                                     ^
+[6.235s] In file included from /opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7,
+[6.235s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/grid_map.h:10,
+[6.235s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/include/path_searching/dyn_a_star.h:7,
+[6.235s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,
+[6.235s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/planner_manager.h:6,
+[6.235s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/planner_manager.cpp:2:
+[6.235s] /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:146:5: note: declared here
+[6.235s]   146 |     ConstPtr;
+[6.235s]       |     ^~~~~~~~
+[6.235s] In file included from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/include/path_searching/dyn_a_star.h:7,
+[6.235s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,
+[6.235s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/planner_manager.h:6,
+[6.235s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/planner_manager.cpp:2:
+[6.235s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/grid_map.h:211:72: warning: ‘sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[6.235s]   211 |   void cloudCallback(const sensor_msgs::msg::PointCloud2::ConstPtr &img);
+[6.235s]       |                                                                        ^
+[6.235s] In file included from /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7,
+[6.235s]                  from /opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:59,
+[6.235s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/grid_map.h:18,
+[6.235s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/include/path_searching/dyn_a_star.h:7,
+[6.235s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,
+[6.235s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/planner_manager.h:6,
+[6.235s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/planner_manager.cpp:2:
+[6.235s] /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:194:5: note: declared here
+[6.235s]   194 |     ConstPtr;
+[6.235s]       |     ^~~~~~~~
+[6.281s] In file included from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/include/path_searching/dyn_a_star.h:7,
+[6.281s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,
+[6.281s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15,
+[6.282s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_planner_node.cpp:5:
+[6.282s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/grid_map.h:208:79: warning: ‘sensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[6.282s]   208 |                          const geometry_msgs::msg::PoseStamped::ConstPtr &pose);
+[6.282s]       |                                                                               ^
+[6.282s] In file included from /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7,
+[6.282s]                  from /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40,
+[6.282s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/grid_map.h:6,
+[6.282s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/include/path_searching/dyn_a_star.h:7,
+[6.282s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,
+[6.282s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15,
+[6.282s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_planner_node.cpp:5:
+[6.282s] /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5: note: declared here
+[6.282s]   173 |     ConstPtr;
+[6.282s]       |     ^~~~~~~~
+[6.282s] In file included from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/include/path_searching/dyn_a_star.h:7,
+[6.282s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,
+[6.282s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15,
+[6.282s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_planner_node.cpp:5:
+[6.282s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/grid_map.h:208:79: warning: ‘geometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[6.282s]   208 |                          const geometry_msgs::msg::PoseStamped::ConstPtr &pose);
+[6.282s]       |                                                                               ^
+[6.282s] In file included from /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:22,
+[6.282s]                  from /opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:7,
+[6.282s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:7,
+[6.282s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_planner_node.cpp:5:
+[6.282s] /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:115:5: note: declared here
+[6.282s]   115 |     ConstPtr;
+[6.282s]       |     ^~~~~~~~
+[6.282s] In file included from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/include/path_searching/dyn_a_star.h:7,
+[6.282s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,
+[6.282s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15,
+[6.282s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_planner_node.cpp:5:
+[6.282s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/grid_map.h:209:71: warning: ‘nav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[6.282s]   209 |   void extrinsicCallback(const nav_msgs::msg::Odometry::ConstPtr &odom);
+[6.282s]       |                                                                       ^
+[6.282s] In file included from /opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7,
+[6.282s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:8,
+[6.282s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_planner_node.cpp:5:
+[6.282s] /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:146:5: note: declared here
+[6.282s]   146 |     ConstPtr;
+[6.282s]       |     ^~~~~~~~
+[6.282s] In file included from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/include/path_searching/dyn_a_star.h:7,
+[6.282s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,
+[6.282s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15,
+[6.282s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_planner_node.cpp:5:
+[6.283s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/grid_map.h:210:117: warning: ‘sensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[6.283s]   210 |   void depthOdomCallback(const sensor_msgs::msg::Image::ConstPtr &img, const nav_msgs::msg::Odometry::ConstPtr &odom);
+[6.283s]       |                                                                                                                     ^
+[6.283s] In file included from /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7,
+[6.283s]                  from /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40,
+[6.283s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/grid_map.h:6,
+[6.283s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/include/path_searching/dyn_a_star.h:7,
+[6.283s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,
+[6.283s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15,
+[6.283s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_planner_node.cpp:5:
+[6.283s] /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5: note: declared here
+[6.283s]   173 |     ConstPtr;
+[6.283s]       |     ^~~~~~~~
+[6.283s] In file included from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/include/path_searching/dyn_a_star.h:7,
+[6.283s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,
+[6.283s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15,
+[6.283s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_planner_node.cpp:5:
+[6.283s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/grid_map.h:210:117: warning: ‘nav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[6.283s]   210 |   void depthOdomCallback(const sensor_msgs::msg::Image::ConstPtr &img, const nav_msgs::msg::Odometry::ConstPtr &odom);
+[6.283s]       |                                                                                                                     ^
+[6.283s] In file included from /opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7,
+[6.283s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:8,
+[6.283s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_planner_node.cpp:5:
+[6.283s] /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:146:5: note: declared here
+[6.283s]   146 |     ConstPtr;
+[6.283s]       |     ^~~~~~~~
+[6.283s] In file included from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/include/path_searching/dyn_a_star.h:7,
+[6.283s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,
+[6.283s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15,
+[6.283s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_planner_node.cpp:5:
+[6.283s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/grid_map.h:211:72: warning: ‘sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[6.283s]   211 |   void cloudCallback(const sensor_msgs::msg::PointCloud2::ConstPtr &img);
+[6.283s]       |                                                                        ^
+[6.283s] In file included from /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7,
+[6.283s]                  from /opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:59,
+[6.283s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/grid_map.h:18,
+[6.283s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/include/path_searching/dyn_a_star.h:7,
+[6.283s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,
+[6.283s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15,
+[6.283s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_planner_node.cpp:5:
+[6.283s] /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:194:5: note: declared here
+[6.283s]   194 |     ConstPtr;
+[6.283s]       |     ^~~~~~~~
+[6.330s] In file included from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/include/path_searching/dyn_a_star.h:7,
+[6.330s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,
+[6.330s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15,
+[6.330s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:
+[6.330s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/grid_map.h:208:79: warning: ‘sensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[6.330s]   208 |                          const geometry_msgs::msg::PoseStamped::ConstPtr &pose);
+[6.330s]       |                                                                               ^
+[6.330s] In file included from /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7,
+[6.330s]                  from /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40,
+[6.330s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/grid_map.h:6,
+[6.330s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/include/path_searching/dyn_a_star.h:7,
+[6.330s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,
+[6.330s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15,
+[6.330s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:
+[6.330s] /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5: note: declared here
+[6.330s]   173 |     ConstPtr;
+[6.330s]       |     ^~~~~~~~
+[6.330s] In file included from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/include/path_searching/dyn_a_star.h:7,
+[6.330s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,
+[6.330s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15,
+[6.330s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:
+[6.330s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/grid_map.h:208:79: warning: ‘geometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[6.330s]   208 |                          const geometry_msgs::msg::PoseStamped::ConstPtr &pose);
+[6.330s]       |                                                                               ^
+[6.330s] In file included from /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:22,
+[6.330s]                  from /opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:7,
+[6.330s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:7,
+[6.330s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:
+[6.331s] /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:115:5: note: declared here
+[6.331s]   115 |     ConstPtr;
+[6.331s]       |     ^~~~~~~~
+[6.331s] In file included from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/include/path_searching/dyn_a_star.h:7,
+[6.331s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,
+[6.331s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15,
+[6.331s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:
+[6.331s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/grid_map.h:209:71: warning: ‘nav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[6.331s]   209 |   void extrinsicCallback(const nav_msgs::msg::Odometry::ConstPtr &odom);
+[6.331s]       |                                                                       ^
+[6.331s] In file included from /opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7,
+[6.331s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:8,
+[6.331s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:
+[6.331s] /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:146:5: note: declared here
+[6.331s]   146 |     ConstPtr;
+[6.331s]       |     ^~~~~~~~
+[6.331s] In file included from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/include/path_searching/dyn_a_star.h:7,
+[6.331s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,
+[6.331s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15,
+[6.331s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:
+[6.331s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/grid_map.h:210:117: warning: ‘sensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[6.331s]   210 |   void depthOdomCallback(const sensor_msgs::msg::Image::ConstPtr &img, const nav_msgs::msg::Odometry::ConstPtr &odom);
+[6.331s]       |                                                                                                                     ^
+[6.331s] In file included from /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7,
+[6.331s]                  from /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40,
+[6.331s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/grid_map.h:6,
+[6.331s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/include/path_searching/dyn_a_star.h:7,
+[6.331s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,
+[6.331s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15,
+[6.331s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:
+[6.331s] /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5: note: declared here
+[6.331s]   173 |     ConstPtr;
+[6.331s]       |     ^~~~~~~~
+[6.331s] In file included from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/include/path_searching/dyn_a_star.h:7,
+[6.331s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,
+[6.331s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15,
+[6.331s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:
+[6.331s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/grid_map.h:210:117: warning: ‘nav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[6.331s]   210 |   void depthOdomCallback(const sensor_msgs::msg::Image::ConstPtr &img, const nav_msgs::msg::Odometry::ConstPtr &odom);
+[6.331s]       |                                                                                                                     ^
+[6.331s] In file included from /opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7,
+[6.331s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:8,
+[6.331s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:
+[6.331s] /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:146:5: note: declared here
+[6.331s]   146 |     ConstPtr;
+[6.331s]       |     ^~~~~~~~
+[6.332s] In file included from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/include/path_searching/dyn_a_star.h:7,
+[6.332s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,
+[6.332s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15,
+[6.332s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:
+[6.332s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/grid_map.h:211:72: warning: ‘sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[6.332s]   211 |   void cloudCallback(const sensor_msgs::msg::PointCloud2::ConstPtr &img);
+[6.332s]       |                                                                        ^
+[6.332s] In file included from /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7,
+[6.332s]                  from /opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:59,
+[6.332s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/grid_map.h:18,
+[6.332s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/include/path_searching/dyn_a_star.h:7,
+[6.332s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,
+[6.332s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15,
+[6.332s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:
+[6.332s] /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:194:5: note: declared here
+[6.332s]   194 |     ConstPtr;
+[6.332s]       |     ^~~~~~~~
+[6.544s] In file included from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:8,
+[6.544s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15,
+[6.544s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_planner_node.cpp:5:
+[6.544s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/obj_predictor.h:126:75: warning: ‘geometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[6.544s]   126 |     void poseCallback(const geometry_msgs::msg::PoseStamped::ConstPtr &msg);
+[6.544s]       |                                                                           ^
+[6.544s] In file included from /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:22,
+[6.544s]                  from /opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:7,
+[6.544s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:7,
+[6.544s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_planner_node.cpp:5:
+[6.544s] /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:115:5: note: declared here
+[6.544s]   115 |     ConstPtr;
+[6.544s]       |     ^~~~~~~~
+[6.602s] In file included from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:8,
+[6.602s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15,
+[6.602s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_planner_node.cpp:5:
+[6.602s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/obj_predictor.h:163:77: warning: ‘visualization_msgs::msg::Marker_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[6.602s]   163 |     void markerCallback(const visualization_msgs::msg::Marker::ConstPtr &msg);
+[6.602s]       |                                                                             ^
+[6.602s] In file included from /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker.hpp:7,
+[6.602s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_planner_node.cpp:2:
+[6.602s] /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp:364:5: note: declared here
+[6.602s]   364 |     ConstPtr;
+[6.602s]       |     ^~~~~~~~
+[6.606s] In file included from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:10,
+[6.606s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15,
+[6.606s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_planner_node.cpp:5:
+[6.606s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/lbfgs.hpp: In function ‘int lbfgs::line_search_morethuente(int, double*, double*, double*, double*, double*, const double*, const double*, const double*, const double*, lbfgs::callback_data_t*, const lbfgs::lbfgs_parameter_t*)’:
+[6.606s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/lbfgs.hpp:723:54: warning: unused parameter ‘gp’ [-Wunused-parameter]
+[6.606s]   723 |                                        const double *gp,
+[6.606s]       |                                        ~~~~~~~~~~~~~~^~
+[6.943s] In file included from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:8,
+[6.943s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/planner_manager.h:6,
+[6.943s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/planner_manager.cpp:2:
+[6.943s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/obj_predictor.h:126:75: warning: ‘geometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[6.943s]   126 |     void poseCallback(const geometry_msgs::msg::PoseStamped::ConstPtr &msg);
+[6.943s]       |                                                                           ^
+[6.943s] In file included from /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:7,
+[6.943s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/grid_map.h:7,
+[6.943s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/include/path_searching/dyn_a_star.h:7,
+[6.943s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,
+[6.943s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/planner_manager.h:6,
+[6.943s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/planner_manager.cpp:2:
+[6.943s] /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:115:5: note: declared here
+[6.943s]   115 |     ConstPtr;
+[6.943s]       |     ^~~~~~~~
+[7.002s] In file included from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:8,
+[7.002s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/planner_manager.h:6,
+[7.002s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/planner_manager.cpp:2:
+[7.002s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/obj_predictor.h:163:77: warning: ‘visualization_msgs::msg::Marker_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[7.002s]   163 |     void markerCallback(const visualization_msgs::msg::Marker::ConstPtr &msg);
+[7.002s]       |                                                                             ^
+[7.002s] In file included from /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker.hpp:7,
+[7.002s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/grid_map.h:14,
+[7.002s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/include/path_searching/dyn_a_star.h:7,
+[7.002s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5,
+[7.002s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/planner_manager.h:6,
+[7.002s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/planner_manager.cpp:2:
+[7.002s] /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp:364:5: note: declared here
+[7.002s]   364 |     ConstPtr;
+[7.002s]       |     ^~~~~~~~
+[7.006s] In file included from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:10,
+[7.006s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/planner_manager.h:6,
+[7.006s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/planner_manager.cpp:2:
+[7.006s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/lbfgs.hpp: In function ‘int lbfgs::line_search_morethuente(int, double*, double*, double*, double*, double*, const double*, const double*, const double*, const double*, lbfgs::callback_data_t*, const lbfgs::lbfgs_parameter_t*)’:
+[7.006s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/lbfgs.hpp:723:54: warning: unused parameter ‘gp’ [-Wunused-parameter]
+[7.006s]   723 |                                        const double *gp,
+[7.006s]       |                                        ~~~~~~~~~~~~~~^~
+[7.055s] In file included from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:8,
+[7.056s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15,
+[7.056s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:
+[7.056s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/obj_predictor.h:126:75: warning: ‘geometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[7.056s]   126 |     void poseCallback(const geometry_msgs::msg::PoseStamped::ConstPtr &msg);
+[7.056s]       |                                                                           ^
+[7.056s] In file included from /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:22,
+[7.056s]                  from /opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:7,
+[7.056s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:7,
+[7.056s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:
+[7.056s] /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:115:5: note: declared here
+[7.056s]   115 |     ConstPtr;
+[7.056s]       |     ^~~~~~~~
+[7.117s] In file included from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:8,
+[7.117s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15,
+[7.117s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:
+[7.117s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/obj_predictor.h:163:77: warning: ‘visualization_msgs::msg::Marker_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[7.117s]   163 |     void markerCallback(const visualization_msgs::msg::Marker::ConstPtr &msg);
+[7.117s]       |                                                                             ^
+[7.117s] In file included from /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker.hpp:7,
+[7.117s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:13,
+[7.117s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:
+[7.117s] /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp:364:5: note: declared here
+[7.117s]   364 |     ConstPtr;
+[7.117s]       |     ^~~~~~~~
+[7.121s] In file included from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:10,
+[7.121s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15,
+[7.121s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_replan_fsm.cpp:2:
+[7.121s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/lbfgs.hpp: In function ‘int lbfgs::line_search_morethuente(int, double*, double*, double*, double*, double*, const double*, const double*, const double*, const double*, lbfgs::callback_data_t*, const lbfgs::lbfgs_parameter_t*)’:
+[7.121s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/include/bspline_opt/lbfgs.hpp:723:54: warning: unused parameter ‘gp’ [-Wunused-parameter]
+[7.121s]   723 |                                        const double *gp,
+[7.121s]       |                                        ~~~~~~~~~~~~~~^~
+[7.307s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_replan_fsm.cpp: In member function ‘void ego_planner::EGOReplanFSM::triggerCallback(const std::shared_ptr<const geometry_msgs::msg::PoseStamped_<std::allocator<void> > >&)’:
+[7.307s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/plan_manage/src/ego_replan_fsm.cpp:228:100: warning: unused parameter ‘msg’ [-Wunused-parameter]
+[7.308s]   228 |   void EGOReplanFSM::triggerCallback(const std::shared_ptr<const geometry_msgs::msg::PoseStamped> &msg)
+[7.308s]       |                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+[13.329s] [ 83%] Linking CXX executable traj_server
+[13.711s] [ 83%] Built target traj_server
+[28.283s] [100%] Linking CXX executable ego_planner_node
+[29.366s] [100%] Built target ego_planner_node
+[29.375s] Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/ego_planner' returned '0': AMENT_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env:/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) LD_LIBRARY_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/lib:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/lib:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/lib:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/local/lib/python3.10/dist-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/lib/python3.10/site-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/ego_planner -- -j32 -l32
+[29.376s] Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/ego_planner': AMENT_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env:/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) LD_LIBRARY_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/lib:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/lib:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/lib:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/local/lib/python3.10/dist-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/lib/python3.10/site-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/ego_planner
+[29.381s] -- Install configuration: "Release"
+[29.381s] -- Execute custom install script
+[29.382s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/ego_planner/lib/ego_planner/ego_planner_node
+[29.388s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/ego_planner/lib/ego_planner/traj_server
+[29.394s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/ego_planner/share/ego_planner/launch/advanced_param.launch.py
+[29.399s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/ego_planner/share/ego_planner/launch/default.rviz
+[29.405s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/ego_planner/share/ego_planner/launch/run_in_sim.launch.py
+[29.411s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/ego_planner/share/ego_planner/launch/rviz.launch.py
+[29.416s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/ego_planner/share/ego_planner/launch/simulator.launch.py
+[29.422s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/ego_planner/share/ego_planner/launch/single_run_in_sim.launch.py
+[29.440s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/ego_planner/share/ego_planner/launch/swarm.launch.py
+[29.454s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/ego_planner/share/ego_planner/launch/swarm_large.launch.py
+[29.461s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/ego_planner/share/ament_index/resource_index/package_run_dependencies/ego_planner
+[29.467s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/ego_planner/share/ament_index/resource_index/parent_prefix_path/ego_planner
+[29.473s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/ego_planner/share/ego_planner/environment/ament_prefix_path.sh
+[29.479s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/ego_planner/share/ego_planner/environment/ament_prefix_path.dsv
+[29.485s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/ego_planner/share/ego_planner/environment/path.sh
+[29.491s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/ego_planner/share/ego_planner/environment/path.dsv
+[29.497s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/ego_planner/share/ego_planner/local_setup.bash
+[29.503s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/ego_planner/share/ego_planner/local_setup.sh
+[29.509s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/ego_planner/share/ego_planner/local_setup.zsh
+[29.515s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/ego_planner/share/ego_planner/local_setup.dsv
+[29.521s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/ego_planner/share/ego_planner/package.dsv
+[29.527s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/ego_planner/share/ament_index/resource_index/packages/ego_planner
+[29.534s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/ego_planner/share/ego_planner/cmake/ego_plannerConfig.cmake
+[29.539s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/ego_planner/share/ego_planner/cmake/ego_plannerConfig-version.cmake
+[29.544s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/ego_planner/share/ego_planner/package.xml
+[29.552s] Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/ego_planner' returned '0': AMENT_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env:/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) LD_LIBRARY_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/bspline_opt/lib:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/path_searching/lib:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/lib:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/local/lib/python3.10/dist-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/traj_utils/lib/python3.10/site-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/ego_planner

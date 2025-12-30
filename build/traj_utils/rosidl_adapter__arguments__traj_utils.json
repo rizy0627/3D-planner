@@ -1,0 +1,8 @@
+{
+  "package_name": "traj_utils",
+  "non_idl_tuples": [
+    "/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/traj_utils:msg/Bspline.msg",
+    "/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/traj_utils:msg/DataDisp.msg",
+    "/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/traj_utils:msg/MultiBsplines.msg"
+  ]
+}

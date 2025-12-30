@@ -1,0 +1,27 @@
+digraph PCTPlanner {
+    rankdir=TB;
+    node [shape=box, fontname="Helvetica"];
+
+    Start [label="Start"];
+    LoadTomogram [label="Load Tomogram (.pickle)\n(parse trav, elev_g, elev_c, trav_gx, trav_gy)"];
+    InitPlanner [label="Init Planner\n(gateway detection, init maps)"];
+    WaitClick [label="等待 RViz 点击 (start/end)"];
+    Pos2Idx [label="pos2idx: world -> grid index"];
+    PlannerPlan [label="planner.plan(start_idx, end_idx)\n(A* search in voxel grid)"];
+    FoundPath [shape=diamond, label="Found path?"];
+    Fail [label="Return None (planning failed)"];
+    GetOptimizer [label="Get trajectory optimizer\n(GPMP or Quintic)"];
+    ExtractRes [label="Extract: opt_init, traj_raw, layers, heights"];
+    Assemble [label="Assemble trajectory matrix\n(build traj_3d (grid coords))"];
+    Transform [label="transTrajGrid2Map: grid -> map coords\n(apply resolution, center, robot height)"];
+    Return [label="Return traj_3d (x,y,z)"];
+
+    Start -> LoadTomogram -> InitPlanner -> WaitClick -> Pos2Idx -> PlannerPlan -> FoundPath;
+    FoundPath -> Fail [label="No"];
+    FoundPath -> GetOptimizer [label="Yes"];
+    GetOptimizer -> ExtractRes -> Assemble -> Transform -> Return;
+
+    // gateway detection detail as note
+    gateway [shape=note, label="Gateway detection:\n- gateway_up: diff_t < -8 & diff_g < 0.1\n- gateway_dn: diff_t > 8 & diff_g < 0.1"];
+    InitPlanner -> gateway [style=dashed];
+}

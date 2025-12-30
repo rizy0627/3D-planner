@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<robot name="simple_dog_bot">
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <!-- Cylinder representing a robot dog body -->
+        <!-- Length 0.6m, Radius 0.15m -->
+        <cylinder length="0.6" radius="0.15"/>
+      </geometry>
+      <!-- Rotate cylinder to lie flat (along X-axis) initially -->
+      <origin xyz="0 0 0" rpy="0 1.57079632679 0"/>
+      <material name="blue">
+        <color rgba="0.0 0.0 1.0 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.6" radius="0.15"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 1.57079632679 0"/>
+    </collision>
+    <inertial>
+      <mass value="10.0"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0.1" ixy="0.0" ixz="0.0" iyy="0.1" iyz="0.0" izz="0.1"/>
+    </inertial>
+  </link>
+</robot>

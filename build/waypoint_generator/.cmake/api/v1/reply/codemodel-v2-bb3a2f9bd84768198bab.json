@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-00e6916aa7dd75bd46d0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "waypoint_generator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e4a5555f8e6d31708abf.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_generator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_generator-bc0303bad14183f8eb53.json",
+					"name" : "waypoint_generator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_generator_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_generator_uninstall-ade2f0d97aaf60559950.json",
+					"name" : "waypoint_generator_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/waypoint_generator",
+		"source" : "/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/Utils/waypoint_generator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

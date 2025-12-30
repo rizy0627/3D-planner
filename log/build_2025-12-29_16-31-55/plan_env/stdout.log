@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target plan_env[0m
+[35m[1mConsolidate compiler generated dependencies of target obj_generator[0m
+[ 66%] Built target plan_env
+[100%] Built target obj_generator
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/lib/libplan_env.so
+-- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/lib/plan_env/obj_generator
+-- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/grid_map.h
+-- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/linear_obj_model.hpp
+-- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/obj_predictor.h
+-- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/include/plan_env/raycast.h
+-- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/share/plan_env/environment/library_path.sh
+-- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/share/plan_env/environment/library_path.dsv
+-- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/share/ament_index/resource_index/package_run_dependencies/plan_env
+-- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/share/ament_index/resource_index/parent_prefix_path/plan_env
+-- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/share/plan_env/environment/ament_prefix_path.sh
+-- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/share/plan_env/environment/ament_prefix_path.dsv
+-- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/share/plan_env/environment/path.sh
+-- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/share/plan_env/environment/path.dsv
+-- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/share/plan_env/local_setup.bash
+-- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/share/plan_env/local_setup.sh
+-- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/share/plan_env/local_setup.zsh
+-- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/share/plan_env/local_setup.dsv
+-- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/share/plan_env/package.dsv
+-- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/share/ament_index/resource_index/packages/plan_env
+-- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/share/plan_env/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/share/plan_env/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/share/plan_env/cmake/plan_envConfig.cmake
+-- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/share/plan_env/cmake/plan_envConfig-version.cmake
+-- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/plan_env/share/plan_env/package.xml

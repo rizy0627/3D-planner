@@ -1,0 +1,397 @@
+[0.024s] Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/multi_map_server': AMENT_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/pose_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/pose_utils:/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) LD_LIBRARY_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/pose_utils/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/Utils/multi_map_server -DPython3_EXECUTABLE=/usr/bin/python3 -Dfmt_DIR=/usr/lib/x86_64-linux-gnu/cmake/fmt -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server
+[0.091s] -- The C compiler identification is GNU 11.4.0
+[0.160s] -- The CXX compiler identification is GNU 11.4.0
+[0.167s] -- Detecting C compiler ABI info
+[0.259s] -- Detecting C compiler ABI info - done
+[0.264s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.264s] -- Detecting C compile features
+[0.264s] -- Detecting C compile features - done
+[0.267s] -- Detecting CXX compiler ABI info
+[0.361s] -- Detecting CXX compiler ABI info - done
+[0.366s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.366s] -- Detecting CXX compile features
+[0.367s] -- Detecting CXX compile features - done
+[0.369s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.772s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.860s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.894s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.932s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.936s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.944s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.952s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.966s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.999s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.002s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.017s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.028s] -- Looking for pthread.h
+[1.113s] -- Looking for pthread.h - found
+[1.113s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.197s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.198s] -- Found Threads: TRUE  
+[1.234s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.246s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.276s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.287s] -- Found pose_utils: 0.0.0 (/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/pose_utils/share/pose_utils/cmake)
+[1.289s] -- Found tf2: 0.25.17 (/opt/ros/humble/share/tf2/cmake)
+[1.303s] -- Found tf2_geometry_msgs: 0.25.17 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.324s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.326s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.326s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.387s] -- Found quadrotor_msgs: 0.0.0 (/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/cmake)
+[1.404s] -- Found laser_geometry: 2.4.1 (/opt/ros/humble/share/laser_geometry/cmake)
+[1.408s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.418s] -- Found Armadillo: /usr/include (found version "10.8.2") 
+[1.731s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.230s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.391s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.408s] -- Found PythonInterp: /home/rizy/anaconda3/envs/myenv/bin/python3 (found suitable version "3.10.19", minimum required is "3.6") 
+[2.410s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.440s] -- Found PythonLibs: /home/rizy/anaconda3/envs/myenv/lib/libpython3.10.so (found suitable version "3.10.19", minimum required is "3.5") 
+[2.440s] -- Using PYTHON_EXECUTABLE: /home/rizy/anaconda3/envs/myenv/bin/python3
+[2.440s] -- Using PYTHON_INCLUDE_DIRS: /home/rizy/anaconda3/envs/myenv/include/python3.10
+[2.440s] -- Using PYTHON_LIBRARIES: /home/rizy/anaconda3/envs/myenv/lib/libpython3.10.so
+[2.456s] -- Found PythonExtra: .so  
+[2.753s] -- Using numpy include directory: /home/rizy/.local/lib/python3.10/site-packages/numpy/core/include
+[2.766s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.782s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.782s] -- Configured cppcheck include dirs: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/Utils/multi_map_server/include
+[2.782s] -- Configured cppcheck exclude dirs and/or files: 
+[2.783s] -- Added test 'lint_cmake' to check CMake code style
+[2.785s] -- Added test 'uncrustify' to check C / C++ code style
+[2.785s] -- Configured uncrustify additional arguments: 
+[2.786s] -- Added test 'xmllint' to check XML markup files
+[2.787s] -- Configuring done
+[2.818s] CMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:166 (add_library):
+[2.818s]   Cannot generate a safe runtime search path for target
+[2.818s]   multi_map_server__rosidl_generator_py because files in some directories may
+[2.819s]   conflict with libraries in implicit directories:
+[2.819s] 
+[2.819s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.819s]       /home/rizy/anaconda3/envs/myenv/lib
+[2.819s] 
+[2.819s]   Some of these libraries may not be found correctly.
+[2.819s] Call Stack (most recent call first):
+[2.819s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.819s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.819s]   CMakeLists.txt:31 (rosidl_generate_interfaces)
+[2.819s] 
+[2.819s] 
+[2.821s] CMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+[2.821s]   Cannot generate a safe runtime search path for target
+[2.821s]   multi_map_server__rosidl_typesupport_fastrtps_c__pyext because files in
+[2.821s]   some directories may conflict with libraries in implicit directories:
+[2.821s] 
+[2.821s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.821s]       /home/rizy/anaconda3/envs/myenv/lib
+[2.821s] 
+[2.821s]   Some of these libraries may not be found correctly.
+[2.821s] Call Stack (most recent call first):
+[2.821s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.821s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.821s]   CMakeLists.txt:31 (rosidl_generate_interfaces)
+[2.821s] 
+[2.822s] 
+[2.824s] CMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+[2.824s]   Cannot generate a safe runtime search path for target
+[2.824s]   multi_map_server__rosidl_typesupport_introspection_c__pyext because files
+[2.824s]   in some directories may conflict with libraries in implicit directories:
+[2.824s] 
+[2.824s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.824s]       /home/rizy/anaconda3/envs/myenv/lib
+[2.824s] 
+[2.824s]   Some of these libraries may not be found correctly.
+[2.824s] Call Stack (most recent call first):
+[2.824s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.824s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.824s]   CMakeLists.txt:31 (rosidl_generate_interfaces)
+[2.824s] 
+[2.824s] 
+[2.827s] CMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+[2.828s]   Cannot generate a safe runtime search path for target
+[2.828s]   multi_map_server__rosidl_typesupport_c__pyext because files in some
+[2.828s]   directories may conflict with libraries in implicit directories:
+[2.828s] 
+[2.828s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[2.828s]       /home/rizy/anaconda3/envs/myenv/lib
+[2.828s] 
+[2.828s]   Some of these libraries may not be found correctly.
+[2.828s] Call Stack (most recent call first):
+[2.828s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.828s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.828s]   CMakeLists.txt:31 (rosidl_generate_interfaces)
+[2.828s] 
+[2.828s] 
+[2.839s] -- Generating done
+[2.856s] -- Build files have been written to: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/multi_map_server
+[2.882s] Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/multi_map_server' returned '0': AMENT_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/pose_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/pose_utils:/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) LD_LIBRARY_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/pose_utils/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/Utils/multi_map_server -DPython3_EXECUTABLE=/usr/bin/python3 -Dfmt_DIR=/usr/lib/x86_64-linux-gnu/cmake/fmt -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server
+[2.883s] Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/multi_map_server': AMENT_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/pose_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/pose_utils:/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) LD_LIBRARY_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/pose_utils/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/multi_map_server -- -j32 -l32
+[2.943s] [  1%] Generating C code for ROS interfaces
+[2.957s] [  3%] Generating C++ code for ROS interfaces
+[2.970s] [  3%] Built target ament_cmake_python_symlink_multi_map_server
+[3.134s] running egg_info
+[3.148s] writing multi_map_server.egg-info/PKG-INFO
+[3.148s] writing dependency_links to multi_map_server.egg-info/dependency_links.txt
+[3.149s] writing top-level names to multi_map_server.egg-info/top_level.txt
+[3.177s] reading manifest file 'multi_map_server.egg-info/SOURCES.txt'
+[3.178s] writing manifest file 'multi_map_server.egg-info/SOURCES.txt'
+[3.230s] [  3%] Built target ament_cmake_python_build_multi_map_server_egg
+[3.263s] Consolidate compiler generated dependencies of target multi_map_server__rosidl_generator_c
+[3.282s] [  5%] Building C object CMakeFiles/multi_map_server__rosidl_generator_c.dir/rosidl_generator_c/multi_map_server/msg/detail/multi_occupancy_grid__functions.c.o
+[3.282s] [  7%] Building C object CMakeFiles/multi_map_server__rosidl_generator_c.dir/rosidl_generator_c/multi_map_server/msg/detail/multi_sparse_map3_d__functions.c.o
+[3.283s] [  8%] Building C object CMakeFiles/multi_map_server__rosidl_generator_c.dir/rosidl_generator_c/multi_map_server/msg/detail/sparse_map3_d__functions.c.o
+[3.285s] [ 10%] Building C object CMakeFiles/multi_map_server__rosidl_generator_c.dir/rosidl_generator_c/multi_map_server/msg/detail/vertical_occupancy_grid_list__functions.c.o
+[3.299s] [ 10%] Built target multi_map_server__cpp
+[3.315s] [ 14%] Generating C++ introspection for ROS interfaces
+[3.315s] [ 15%] Generating C++ type support dispatch for ROS interfaces
+[3.315s] [ 15%] Generating C++ type support for eProsima Fast-RTPS
+[3.393s] [ 17%] Linking C shared library libmulti_map_server__rosidl_generator_c.so
+[3.452s] [ 17%] Built target multi_map_server__rosidl_generator_c
+[3.473s] [ 22%] Generating C type support dispatch for ROS interfaces
+[3.473s] [ 22%] Generating C type support for eProsima Fast-RTPS
+[3.473s] [ 22%] Generating C introspection for ROS interfaces
+[3.575s] Consolidate compiler generated dependencies of target multi_map_server__rosidl_typesupport_cpp
+[3.596s] [ 26%] Building CXX object CMakeFiles/multi_map_server__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multi_map_server/msg/multi_sparse_map3_d__type_support.cpp.o
+[3.596s] [ 26%] Building CXX object CMakeFiles/multi_map_server__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multi_map_server/msg/sparse_map3_d__type_support.cpp.o
+[3.597s] [ 28%] Building CXX object CMakeFiles/multi_map_server__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multi_map_server/msg/vertical_occupancy_grid_list__type_support.cpp.o
+[3.599s] [ 29%] Building CXX object CMakeFiles/multi_map_server__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multi_map_server/msg/multi_occupancy_grid__type_support.cpp.o
+[3.605s] Consolidate compiler generated dependencies of target multi_map_server__rosidl_typesupport_fastrtps_cpp
+[3.615s] Consolidate compiler generated dependencies of target multi_map_server__rosidl_typesupport_introspection_cpp
+[3.622s] [ 31%] Building CXX object CMakeFiles/multi_map_server__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multi_map_server/msg/detail/dds_fastrtps/multi_occupancy_grid__type_support.cpp.o
+[3.622s] [ 33%] Building CXX object CMakeFiles/multi_map_server__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multi_map_server/msg/detail/dds_fastrtps/sparse_map3_d__type_support.cpp.o
+[3.627s] [ 35%] Building CXX object CMakeFiles/multi_map_server__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multi_map_server/msg/detail/multi_occupancy_grid__type_support.cpp.o
+[3.630s] [ 38%] Building CXX object CMakeFiles/multi_map_server__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multi_map_server/msg/detail/dds_fastrtps/multi_sparse_map3_d__type_support.cpp.o
+[3.630s] [ 38%] Building CXX object CMakeFiles/multi_map_server__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multi_map_server/msg/detail/dds_fastrtps/vertical_occupancy_grid_list__type_support.cpp.o
+[3.631s] [ 40%] Building CXX object CMakeFiles/multi_map_server__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multi_map_server/msg/detail/vertical_occupancy_grid_list__type_support.cpp.o
+[3.632s] [ 42%] Building CXX object CMakeFiles/multi_map_server__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multi_map_server/msg/detail/sparse_map3_d__type_support.cpp.o
+[3.633s] [ 43%] Building CXX object CMakeFiles/multi_map_server__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multi_map_server/msg/detail/multi_sparse_map3_d__type_support.cpp.o
+[3.745s] Consolidate compiler generated dependencies of target multi_map_server__rosidl_typesupport_c
+[3.757s] Consolidate compiler generated dependencies of target multi_map_server__rosidl_typesupport_introspection_c
+[3.771s] [ 47%] Building CXX object CMakeFiles/multi_map_server__rosidl_typesupport_c.dir/rosidl_typesupport_c/multi_map_server/msg/sparse_map3_d__type_support.cpp.o
+[3.771s] [ 47%] Building CXX object CMakeFiles/multi_map_server__rosidl_typesupport_c.dir/rosidl_typesupport_c/multi_map_server/msg/multi_occupancy_grid__type_support.cpp.o
+[3.771s] [ 50%] Building CXX object CMakeFiles/multi_map_server__rosidl_typesupport_c.dir/rosidl_typesupport_c/multi_map_server/msg/multi_sparse_map3_d__type_support.cpp.o
+[3.771s] [ 50%] Building CXX object CMakeFiles/multi_map_server__rosidl_typesupport_c.dir/rosidl_typesupport_c/multi_map_server/msg/vertical_occupancy_grid_list__type_support.cpp.o
+[3.777s] [ 52%] Building C object CMakeFiles/multi_map_server__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multi_map_server/msg/detail/multi_sparse_map3_d__type_support.c.o
+[3.779s] [ 54%] Building C object CMakeFiles/multi_map_server__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multi_map_server/msg/detail/multi_occupancy_grid__type_support.c.o
+[3.779s] [ 56%] Building C object CMakeFiles/multi_map_server__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multi_map_server/msg/detail/vertical_occupancy_grid_list__type_support.c.o
+[3.781s] [ 57%] Building C object CMakeFiles/multi_map_server__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multi_map_server/msg/detail/sparse_map3_d__type_support.c.o
+[3.833s] [ 59%] Linking CXX shared library libmulti_map_server__rosidl_typesupport_c.so
+[3.865s] [ 61%] Linking C shared library libmulti_map_server__rosidl_typesupport_introspection_c.so
+[3.866s] Consolidate compiler generated dependencies of target multi_map_server__rosidl_typesupport_fastrtps_c
+[3.890s] [ 64%] Building CXX object CMakeFiles/multi_map_server__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multi_map_server/msg/detail/multi_sparse_map3_d__type_support_c.cpp.o
+[3.891s] [ 64%] Building CXX object CMakeFiles/multi_map_server__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multi_map_server/msg/detail/multi_occupancy_grid__type_support_c.cpp.o
+[3.892s] [ 68%] Building CXX object CMakeFiles/multi_map_server__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multi_map_server/msg/detail/vertical_occupancy_grid_list__type_support_c.cpp.o
+[3.892s] [ 68%] Building CXX object CMakeFiles/multi_map_server__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multi_map_server/msg/detail/sparse_map3_d__type_support_c.cpp.o
+[3.936s] [ 68%] Built target multi_map_server__rosidl_typesupport_introspection_c
+[3.936s] [ 68%] Built target multi_map_server__rosidl_typesupport_c
+[4.001s] [ 70%] Linking CXX shared library libmulti_map_server__rosidl_typesupport_cpp.so
+[4.086s] [ 70%] Built target multi_map_server__rosidl_typesupport_cpp
+[4.121s] Consolidate compiler generated dependencies of target multi_map_visualization
+[4.156s] [ 71%] Building CXX object CMakeFiles/multi_map_visualization.dir/src/multi_map_visualization.cc.o
+[4.388s] [ 73%] Linking CXX shared library libmulti_map_server__rosidl_typesupport_fastrtps_c.so
+[4.492s] [ 75%] Linking CXX shared library libmulti_map_server__rosidl_typesupport_fastrtps_cpp.so
+[4.516s] [ 75%] Built target multi_map_server__rosidl_typesupport_fastrtps_c
+[4.610s] [ 75%] Built target multi_map_server__rosidl_typesupport_fastrtps_cpp
+[4.656s] [ 77%] Linking CXX shared library libmulti_map_server__rosidl_typesupport_introspection_cpp.so
+[4.770s] [ 77%] Built target multi_map_server__rosidl_typesupport_introspection_cpp
+[4.799s] [ 77%] Built target multi_map_server
+[4.832s] [ 78%] Built target multi_map_server__py
+[4.851s] Consolidate compiler generated dependencies of target multi_map_server__rosidl_generator_py
+[4.870s] [ 85%] Building C object CMakeFiles/multi_map_server__rosidl_generator_py.dir/rosidl_generator_py/multi_map_server/msg/_sparse_map3_d_s.c.o
+[4.870s] [ 85%] Building C object CMakeFiles/multi_map_server__rosidl_generator_py.dir/rosidl_generator_py/multi_map_server/msg/_vertical_occupancy_grid_list_s.c.o
+[4.870s] [ 85%] Building C object CMakeFiles/multi_map_server__rosidl_generator_py.dir/rosidl_generator_py/multi_map_server/msg/_multi_occupancy_grid_s.c.o
+[4.870s] [ 85%] Building C object CMakeFiles/multi_map_server__rosidl_generator_py.dir/rosidl_generator_py/multi_map_server/msg/_multi_sparse_map3_d_s.c.o
+[5.065s] [ 87%] Linking C shared library rosidl_generator_py/multi_map_server/libmulti_map_server__rosidl_generator_py.so
+[5.139s] [ 87%] Built target multi_map_server__rosidl_generator_py
+[5.159s] Consolidate compiler generated dependencies of target multi_map_server__rosidl_typesupport_c__pyext
+[5.159s] Consolidate compiler generated dependencies of target multi_map_server__rosidl_typesupport_introspection_c__pyext
+[5.159s] Consolidate compiler generated dependencies of target multi_map_server__rosidl_typesupport_fastrtps_c__pyext
+[5.176s] [ 92%] Building C object CMakeFiles/multi_map_server__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/multi_map_server/_multi_map_server_s.ep.rosidl_typesupport_introspection_c.c.o
+[5.176s] [ 92%] Building C object CMakeFiles/multi_map_server__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/multi_map_server/_multi_map_server_s.ep.rosidl_typesupport_c.c.o
+[5.176s] [ 92%] Building C object CMakeFiles/multi_map_server__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/multi_map_server/_multi_map_server_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[5.349s] [ 98%] Linking C shared library rosidl_generator_py/multi_map_server/multi_map_server_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.349s] [ 98%] Linking C shared library rosidl_generator_py/multi_map_server/multi_map_server_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.349s] [ 98%] Linking C shared library rosidl_generator_py/multi_map_server/multi_map_server_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.407s] [ 98%] Built target multi_map_server__rosidl_typesupport_fastrtps_c__pyext
+[5.407s] [ 98%] Built target multi_map_server__rosidl_typesupport_c__pyext
+[5.411s] [ 98%] Built target multi_map_server__rosidl_typesupport_introspection_c__pyext
+[9.168s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/Utils/multi_map_server/src/multi_map_visualization.cc:18:84: warning: ‘multi_map_server::msg::MultiOccupancyGrid_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[9.168s]    18 | void maps2d_callback(const multi_map_server::msg::MultiOccupancyGrid::ConstPtr &msg)
+[9.168s]       |                                                                                    ^
+[9.168s] In file included from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/multi_map_server/rosidl_generator_cpp/multi_map_server/msg/multi_occupancy_grid.hpp:7,
+[9.168s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/Utils/multi_map_server/src/multi_map_visualization.cc:5:
+[9.168s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/multi_map_server/rosidl_generator_cpp/multi_map_server/msg/detail/multi_occupancy_grid__struct.hpp:112:5: note: declared here
+[9.168s]   112 |     ConstPtr;
+[9.168s]       |     ^~~~~~~~
+[9.170s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/Utils/multi_map_server/src/multi_map_visualization.cc:37:82: warning: ‘multi_map_server::msg::MultiSparseMap3D_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[9.170s]    37 | void maps3d_callback(const multi_map_server::msg::MultiSparseMap3D::ConstPtr &msg)
+[9.170s]       |                                                                                  ^
+[9.170s] In file included from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/multi_map_server/rosidl_generator_cpp/multi_map_server/msg/multi_sparse_map3_d.hpp:7,
+[9.170s]                  from /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/Utils/multi_map_server/src/multi_map_visualization.cc:6:
+[9.170s] /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/multi_map_server/rosidl_generator_cpp/multi_map_server/msg/detail/multi_sparse_map3_d__struct.hpp:112:5: note: declared here
+[9.170s]   112 |     ConstPtr;
+[9.170s]       |     ^~~~~~~~
+[24.581s] [100%] Linking CXX executable multi_map_visualization
+[24.867s] [100%] Built target multi_map_visualization
+[24.887s] Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/multi_map_server' returned '0': AMENT_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/pose_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/pose_utils:/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) LD_LIBRARY_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/pose_utils/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/multi_map_server -- -j32 -l32
+[24.888s] Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/multi_map_server': AMENT_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/pose_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/pose_utils:/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) LD_LIBRARY_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/pose_utils/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/multi_map_server
+[24.895s] -- Install configuration: "Release"
+[24.895s] -- Execute custom install script
+[24.895s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/ament_index/resource_index/rosidl_interfaces/multi_map_server
+[24.895s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__functions.h
+[24.896s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__struct.h
+[24.896s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__type_support.h
+[24.896s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__functions.h
+[24.896s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__struct.h
+[24.896s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__type_support.h
+[24.896s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__functions.h
+[24.896s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__struct.h
+[24.896s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__type_support.h
+[24.896s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__functions.h
+[24.896s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__struct.h
+[24.896s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__type_support.h
+[24.896s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/multi_occupancy_grid.h
+[24.896s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/multi_sparse_map3_d.h
+[24.896s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/rosidl_generator_c__visibility_control.h
+[24.896s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/sparse_map3_d.h
+[24.897s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/vertical_occupancy_grid_list.h
+[24.897s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/environment/library_path.sh
+[24.897s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/environment/library_path.dsv
+[24.897s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__rosidl_typesupport_fastrtps_c.h
+[24.897s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__rosidl_typesupport_fastrtps_c.h
+[24.897s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__rosidl_typesupport_fastrtps_c.h
+[24.897s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__rosidl_typesupport_fastrtps_c.h
+[24.897s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[24.898s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__builder.hpp
+[24.898s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__struct.hpp
+[24.898s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__traits.hpp
+[24.898s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__type_support.hpp
+[24.898s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__builder.hpp
+[24.898s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__struct.hpp
+[24.898s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__traits.hpp
+[24.898s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__type_support.hpp
+[24.898s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__builder.hpp
+[24.898s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__struct.hpp
+[24.898s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__traits.hpp
+[24.898s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__type_support.hpp
+[24.898s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__builder.hpp
+[24.898s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__struct.hpp
+[24.898s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__traits.hpp
+[24.899s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__type_support.hpp
+[24.899s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/multi_occupancy_grid.hpp
+[24.899s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/multi_sparse_map3_d.hpp
+[24.899s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/rosidl_generator_cpp__visibility_control.hpp
+[24.899s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/sparse_map3_d.hpp
+[24.899s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/vertical_occupancy_grid_list.hpp
+[24.899s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__rosidl_typesupport_fastrtps_cpp.hpp
+[24.899s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[24.899s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[24.899s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__rosidl_typesupport_fastrtps_cpp.hpp
+[24.899s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[24.900s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__rosidl_typesupport_introspection_c.h
+[24.900s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__rosidl_typesupport_introspection_c.h
+[24.900s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__rosidl_typesupport_introspection_c.h
+[24.900s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__rosidl_typesupport_introspection_c.h
+[24.900s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[24.900s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__rosidl_typesupport_introspection_cpp.hpp
+[24.900s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__rosidl_typesupport_introspection_cpp.hpp
+[24.900s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__rosidl_typesupport_introspection_cpp.hpp
+[24.900s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__rosidl_typesupport_introspection_cpp.hpp
+[24.900s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/environment/pythonpath.sh
+[24.900s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/environment/pythonpath.dsv
+[24.901s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server-0.0.0-py3.10.egg-info/PKG-INFO
+[24.908s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server-0.0.0-py3.10.egg-info/SOURCES.txt
+[24.915s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server-0.0.0-py3.10.egg-info/dependency_links.txt
+[24.921s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server-0.0.0-py3.10.egg-info/top_level.txt
+[24.929s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/__init__.py
+[24.935s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/_multi_map_server_s.ep.rosidl_typesupport_c.c
+[24.942s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/_multi_map_server_s.ep.rosidl_typesupport_fastrtps_c.c
+[24.951s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/_multi_map_server_s.ep.rosidl_typesupport_introspection_c.c
+[24.975s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/libmulti_map_server__rosidl_generator_py.so
+[24.992s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/__init__.py
+[24.999s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_multi_occupancy_grid.py
+[25.004s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_multi_occupancy_grid_s.c
+[25.010s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_multi_sparse_map3_d.py
+[25.015s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_multi_sparse_map3_d_s.c
+[25.022s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_sparse_map3_d.py
+[25.029s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_sparse_map3_d_s.c
+[25.034s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_vertical_occupancy_grid_list.py
+[25.040s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_vertical_occupancy_grid_list_s.c
+[25.048s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/multi_map_server_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[25.058s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/multi_map_server_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[25.069s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/multi_map_server_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[25.082s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/multi_map_server_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[25.083s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/multi_map_server_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[25.083s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/multi_map_server_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[25.083s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/msg/MultiOccupancyGrid.idl
+[25.083s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/msg/MultiSparseMap3D.idl
+[25.083s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/msg/SparseMap3D.idl
+[25.083s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/msg/VerticalOccupancyGridList.idl
+[25.083s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/msg/MultiOccupancyGrid.msg
+[25.083s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/msg/MultiSparseMap3D.msg
+[25.084s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/msg/SparseMap3D.msg
+[25.084s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/msg/VerticalOccupancyGridList.msg
+[25.084s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/lib/multi_map_server/multi_map_visualization
+[25.084s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/ament_index/resource_index/package_run_dependencies/multi_map_server
+[25.084s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/ament_index/resource_index/parent_prefix_path/multi_map_server
+[25.084s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/environment/ament_prefix_path.sh
+[25.084s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/environment/ament_prefix_path.dsv
+[25.084s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/environment/path.sh
+[25.084s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/environment/path.dsv
+[25.084s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/local_setup.bash
+[25.084s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/local_setup.sh
+[25.084s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/local_setup.zsh
+[25.084s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/local_setup.dsv
+[25.085s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/package.dsv
+[25.085s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/ament_index/resource_index/packages/multi_map_server
+[25.085s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/cmake/rosidl_cmake-extras.cmake
+[25.085s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/cmake/ament_cmake_export_dependencies-extras.cmake
+[25.085s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[25.085s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+[25.085s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/cmake/ament_cmake_export_targets-extras.cmake
+[25.085s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[25.085s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[25.085s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/cmake/multi_map_serverConfig.cmake
+[25.085s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/cmake/multi_map_serverConfig-version.cmake
+[25.085s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/package.xml
+[25.086s] -- Installing: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/lib/libmulti_map_server__rosidl_generator_c.so
+[25.086s] -- Set runtime path of "/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/lib/libmulti_map_server__rosidl_generator_c.so" to ""
+[25.086s] -- Installing: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_fastrtps_c.so
+[25.087s] -- Set runtime path of "/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_fastrtps_c.so" to ""
+[25.087s] -- Installing: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_fastrtps_cpp.so
+[25.087s] -- Set runtime path of "/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_fastrtps_cpp.so" to ""
+[25.088s] -- Installing: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_introspection_c.so
+[25.088s] -- Set runtime path of "/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_introspection_c.so" to ""
+[25.088s] -- Installing: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_c.so
+[25.088s] -- Set runtime path of "/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_c.so" to ""
+[25.088s] -- Installing: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_introspection_cpp.so
+[25.089s] -- Set runtime path of "/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_introspection_cpp.so" to ""
+[25.089s] -- Installing: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_cpp.so
+[25.089s] -- Set runtime path of "/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_cpp.so" to ""
+[25.113s] Listing '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server'...
+[25.113s] Compiling '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/__init__.py'...
+[25.113s] Listing '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg'...
+[25.113s] Compiling '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/__init__.py'...
+[25.113s] Compiling '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_multi_occupancy_grid.py'...
+[25.113s] Compiling '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_multi_sparse_map3_d.py'...
+[25.113s] Compiling '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_sparse_map3_d.py'...
+[25.113s] Compiling '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_vertical_occupancy_grid_list.py'...
+[25.117s] -- Installing: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/lib/libmulti_map_server__rosidl_generator_py.so
+[25.117s] -- Set runtime path of "/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/lib/libmulti_map_server__rosidl_generator_py.so" to ""
+[25.117s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/cmake/export_multi_map_server__rosidl_generator_cExport.cmake
+[25.117s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/cmake/export_multi_map_server__rosidl_generator_cExport-release.cmake
+[25.117s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/cmake/export_multi_map_server__rosidl_typesupport_fastrtps_cExport.cmake
+[25.117s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/cmake/export_multi_map_server__rosidl_typesupport_fastrtps_cExport-release.cmake
+[25.117s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/cmake/export_multi_map_server__rosidl_generator_cppExport.cmake
+[25.117s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/cmake/export_multi_map_server__rosidl_typesupport_fastrtps_cppExport.cmake
+[25.117s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/cmake/export_multi_map_server__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[25.118s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/cmake/multi_map_server__rosidl_typesupport_introspection_cExport.cmake
+[25.118s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/cmake/multi_map_server__rosidl_typesupport_introspection_cExport-release.cmake
+[25.118s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/cmake/multi_map_server__rosidl_typesupport_cExport.cmake
+[25.118s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/cmake/multi_map_server__rosidl_typesupport_cExport-release.cmake
+[25.118s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/cmake/multi_map_server__rosidl_typesupport_introspection_cppExport.cmake
+[25.118s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/cmake/multi_map_server__rosidl_typesupport_introspection_cppExport-release.cmake
+[25.118s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/cmake/multi_map_server__rosidl_typesupport_cppExport.cmake
+[25.118s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/cmake/multi_map_server__rosidl_typesupport_cppExport-release.cmake
+[25.118s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/cmake/export_multi_map_server__rosidl_generator_pyExport.cmake
+[25.118s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/multi_map_server/share/multi_map_server/cmake/export_multi_map_server__rosidl_generator_pyExport-release.cmake
+[25.120s] Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/multi_map_server' returned '0': AMENT_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/pose_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/pose_utils:/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) LD_LIBRARY_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/pose_utils/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/multi_map_server

@@ -1,0 +1,31 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[33mCMake Warning at CMakeLists.txt:50 (add_executable):
+  Cannot generate a safe runtime search path for target ego_planner_node
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/envs/myenv/lib
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/envs/myenv/lib
+    runtime library [libX11.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/envs/myenv/lib
+
+  Some of these libraries may not be found correctly.
+
+[0m
+[33mCMake Warning at CMakeLists.txt:73 (add_executable):
+  Cannot generate a safe runtime search path for target traj_server because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/envs/myenv/lib
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/envs/myenv/lib
+    runtime library [libX11.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/envs/myenv/lib
+
+  Some of these libraries may not be found correctly.
+
+[0m

@@ -1,0 +1,113 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:166 (add_library):
+  Cannot generate a safe runtime search path for target
+  traj_utils__rosidl_generator_py because files in some directories may
+  conflict with libraries in implicit directories:
+
+    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/envs/myenv/lib
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:26 (rosidl_generate_interfaces)
+
+[0m
+[33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+  Cannot generate a safe runtime search path for target
+  traj_utils__rosidl_typesupport_fastrtps_c__pyext because files in some
+  directories may conflict with libraries in implicit directories:
+
+    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/envs/myenv/lib
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:26 (rosidl_generate_interfaces)
+
+[0m
+[33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+  Cannot generate a safe runtime search path for target
+  traj_utils__rosidl_typesupport_introspection_c__pyext because files in some
+  directories may conflict with libraries in implicit directories:
+
+    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/envs/myenv/lib
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:26 (rosidl_generate_interfaces)
+
+[0m
+[33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+  Cannot generate a safe runtime search path for target
+  traj_utils__rosidl_typesupport_c__pyext because files in some directories
+  may conflict with libraries in implicit directories:
+
+    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/envs/myenv/lib
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:26 (rosidl_generate_interfaces)
+
+[0m
+[33mCMake Warning at CMakeLists.txt:57 (add_library):
+  Cannot generate a safe runtime search path for target traj_utils_lib
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libpng16.so.16] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/lib
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/lib
+    runtime library [libfreetype.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/lib
+    runtime library [libX11.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/lib
+    runtime library [libQt5OpenGL.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/lib
+    runtime library [libQt5Widgets.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/lib
+    runtime library [libQt5Gui.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/lib
+    runtime library [libEGL.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/lib
+    runtime library [libGL.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/lib
+    runtime library [libQt5Core.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/lib
+    runtime library [libtbb.so.12] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/lib
+
+  Some of these libraries may not be found correctly.
+
+[0m
+[33mCMake Warning at CMakeLists.txt:57 (add_library):
+  Cannot generate a safe dependent library path for target traj_utils_lib
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libEGL.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/lib
+    runtime library [libGL.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/lib
+
+  Some of these libraries may not be found correctly.
+
+[0m
+[01m[K/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/traj_utils/src/planning_visualization.cpp:[m[K In member function ‘[01m[Kvoid ego_planner::PlanningVisualization::displayMarkerList(rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > >::SharedPtr&, const std::vector<Eigen::Matrix<double, 3, 1> >&, double, Eigen::Vector4d, int, bool)[m[K’:
+[01m[K/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/traj_utils/src/planning_visualization.cpp:11:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kshow_sphere[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   11 |                                                 Eigen::Vector4d color, int id, [01;35m[Kbool show_sphere[m[K /* = true */)
+      |                                                                                [01;35m[K~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/traj_utils/src/planning_visualization.cpp:[m[K In member function ‘[01m[Kvoid ego_planner::PlanningVisualization::displayMultiInitPathList(std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >, double)[m[K’:
+[01m[K/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/traj_utils/src/planning_visualization.cpp:177:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Eigen::Matrix<double, 3, 1> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  177 |     for (int id = 0; [01;35m[Kid < init_trajs.size()[m[K; id++)
+      |                      [01;35m[K~~~^~~~~~~~~~~~~~~~~~~[m[K

@@ -1,0 +1,155 @@
+[0.026s] Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/so3_control': AMENT_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/cmake_utils:/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) LD_LIBRARY_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/so3_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/so3_control
+[0.094s] -- The C compiler identification is GNU 11.4.0
+[0.148s] -- The CXX compiler identification is GNU 11.4.0
+[0.158s] -- Detecting C compiler ABI info
+[0.237s] -- Detecting C compiler ABI info - done
+[0.243s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.243s] -- Detecting C compile features
+[0.244s] -- Detecting C compile features - done
+[0.247s] -- Detecting CXX compiler ABI info
+[0.337s] -- Detecting CXX compiler ABI info - done
+[0.343s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.343s] -- Detecting CXX compile features
+[0.344s] -- Detecting CXX compile features - done
+[0.347s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.753s] -- Found Python3: /home/rizy/anaconda3/envs/myenv/bin/python3 (found version "3.10.19") found components: Interpreter 
+[0.818s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.853s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.900s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.906s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.915s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.928s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.944s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.984s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.987s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.002s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.011s] -- Looking for pthread.h
+[1.098s] -- Looking for pthread.h - found
+[1.098s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.187s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.188s] -- Found Threads: TRUE  
+[1.229s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.250s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.260s] -- Found quadrotor_msgs: 0.0.0 (/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/cmake)
+[1.279s] -- Found tf2: 0.25.17 (/opt/ros/humble/share/tf2/cmake)
+[1.290s] -- Found tf2_geometry_msgs: 0.25.17 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.308s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.309s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.309s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.384s] -- Found cmake_utils: 0.0.0 (/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/cmake_utils/share/cmake_utils/cmake)
+[1.385s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.509s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.509s] -- Configured cppcheck include dirs: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/so3_control/include
+[1.509s] -- Configured cppcheck exclude dirs and/or files: 
+[1.510s] -- Added test 'lint_cmake' to check CMake code style
+[1.511s] -- Added test 'uncrustify' to check C / C++ code style
+[1.511s] -- Configured uncrustify additional arguments: 
+[1.512s] -- Added test 'xmllint' to check XML markup files
+[1.513s] -- Configuring done
+[1.527s] [33mCMake Warning at CMakeLists.txt:48 (add_library):
+[1.527s]   Cannot generate a safe runtime search path for target so3_control_component
+[1.527s]   because files in some directories may conflict with libraries in implicit
+[1.527s]   directories:
+[1.527s] 
+[1.527s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.527s]       /home/rizy/anaconda3/envs/myenv/lib
+[1.527s] 
+[1.527s]   Some of these libraries may not be found correctly.
+[1.527s] 
+[1.527s] [0m
+[1.532s] [33mCMake Warning at CMakeLists.txt:66 (add_executable):
+[1.532s]   Cannot generate a safe runtime search path for target control_example
+[1.532s]   because files in some directories may conflict with libraries in implicit
+[1.532s]   directories:
+[1.532s] 
+[1.532s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.532s]       /home/rizy/anaconda3/envs/myenv/lib
+[1.532s] 
+[1.532s]   Some of these libraries may not be found correctly.
+[1.532s] 
+[1.532s] [0m
+[1.533s] -- Generating done
+[1.539s] -- Build files have been written to: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/so3_control
+[1.575s] Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/so3_control' returned '0': AMENT_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/cmake_utils:/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) LD_LIBRARY_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/so3_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/so3_control
+[1.578s] Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/so3_control': AMENT_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/cmake_utils:/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) LD_LIBRARY_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/so3_control -- -j32 -l32
+[1.639s] [ 12%] [32mBuilding CXX object CMakeFiles/SO3Control.dir/src/SO3Control.cpp.o[0m
+[1.643s] [ 25%] [32mBuilding CXX object CMakeFiles/control_example.dir/src/control_example.cpp.o[0m
+[1.644s] [ 37%] [32mBuilding CXX object CMakeFiles/so3_control_component_node.dir/rclcpp_components/node_main_so3_control_component_node.cpp.o[0m
+[6.571s] [01m[K/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/so3_control/src/SO3Control.cpp:[m[K In member function ‘[01m[Kvoid SO3Control::calculateControl(const Vector3d&, const Vector3d&, const Vector3d&, double, double, const Vector3d&, const Vector3d&)[m[K’:
+[6.571s] [01m[K/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/so3_control/src/SO3Control.cpp:38:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdes_yaw_dot[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.571s]    38 |                                   const double des_yaw, [01;35m[Kconst double des_yaw_dot[m[K,
+[6.571s]       |                                                         [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[8.246s] [ 50%] [32m[1mLinking CXX static library libSO3Control.a[0m
+[8.317s] [ 50%] Built target SO3Control
+[8.347s] [ 62%] [32mBuilding CXX object CMakeFiles/so3_control_component.dir/src/so3_control_component.cpp.o[0m
+[8.415s] [ 75%] [32m[1mLinking CXX executable so3_control_component_node[0m
+[8.575s] [ 75%] Built target so3_control_component_node
+[10.462s] [ 87%] [32m[1mLinking CXX executable control_example[0m
+[10.583s] [ 87%] Built target control_example
+[11.821s] [01m[K/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/so3_control/src/so3_control_component.cpp:30:89:[m[K [01;35m[Kwarning: [m[K‘[01m[Kquadrotor_msgs::msg::PositionCommand_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.821s]    30 |     void position_cmd_callback(const quadrotor_msgs::msg::PositionCommand::ConstPtr &cmd[01;35m[K)[m[K;
+[11.821s]       |                                                                                         [01;35m[K^[m[K
+[11.821s] In file included from [01m[K/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/quadrotor_msgs/rosidl_generator_cpp/quadrotor_msgs/msg/position_command.hpp:7[m[K,
+[11.821s]                  from [01m[K/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/so3_control/src/so3_control_component.cpp:5[m[K:
+[11.821s] [01m[K/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/quadrotor_msgs/rosidl_generator_cpp/quadrotor_msgs/msg/detail/position_command__struct.hpp:228:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.821s]   228 |     [01;36m[KConstPtr[m[K;
+[11.821s]       |     [01;36m[K^~~~~~~~[m[K
+[11.821s] [01m[K/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/so3_control/src/so3_control_component.cpp:31:69:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.821s]    31 |     void odom_callback(const nav_msgs::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K;
+[11.821s]       |                                                                     [01;35m[K^[m[K
+[11.821s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[11.821s]                  from [01m[K/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/so3_control/src/so3_control_component.cpp:2[m[K:
+[11.821s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:146:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.821s]   146 |     [01;36m[KConstPtr[m[K;
+[11.821s]       |     [01;36m[K^~~~~~~~[m[K
+[11.822s] [01m[K/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/so3_control/src/so3_control_component.cpp:32:73:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd_msgs::msg::Bool_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.822s]    32 |     void enable_motors_callback(const std_msgs::msg::Bool::ConstPtr &msg[01;35m[K)[m[K;
+[11.822s]       |                                                                         [01;35m[K^[m[K
+[11.822s] In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/bool.hpp:7[m[K,
+[11.822s]                  from [01m[K/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/so3_control/src/so3_control_component.cpp:10[m[K:
+[11.822s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__struct.hpp:105:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.822s]   105 |     [01;36m[KConstPtr[m[K;
+[11.822s]       |     [01;36m[K^~~~~~~~[m[K
+[11.822s] [01m[K/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/so3_control/src/so3_control_component.cpp:33:84:[m[K [01;35m[Kwarning: [m[K‘[01m[Kquadrotor_msgs::msg::Corrections_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[11.822s]    33 |     void corrections_callback(const quadrotor_msgs::msg::Corrections::ConstPtr &msg[01;35m[K)[m[K;
+[11.822s]       |                                                                                    [01;35m[K^[m[K
+[11.822s] In file included from [01m[K/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/quadrotor_msgs/rosidl_generator_cpp/quadrotor_msgs/msg/corrections.hpp:7[m[K,
+[11.822s]                  from [01m[K/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/so3_control/src/so3_control_component.cpp:4[m[K:
+[11.822s] [01m[K/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/quadrotor_msgs/rosidl_generator_cpp/quadrotor_msgs/msg/detail/corrections__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.822s]   116 |     [01;36m[KConstPtr[m[K;
+[11.822s]       |     [01;36m[K^~~~~~~~[m[K
+[12.018s] [01m[K/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/so3_control/src/so3_control_component.cpp:97:106:[m[K [01;35m[Kwarning: [m[K‘[01m[Kquadrotor_msgs::msg::PositionCommand_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[12.018s]    97 | lComponent::position_cmd_callback(const quadrotor_msgs::msg::PositionCommand::ConstPtr &cmd[01;35m[K)[m[K
+[12.018s]       |                                                                                            [01;35m[K^[m[K
+[12.018s] 
+[12.018s] In file included from [01m[K/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/quadrotor_msgs/rosidl_generator_cpp/quadrotor_msgs/msg/position_command.hpp:7[m[K,
+[12.018s]                  from [01m[K/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/so3_control/src/so3_control_component.cpp:5[m[K:
+[12.018s] [01m[K/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/quadrotor_msgs/rosidl_generator_cpp/quadrotor_msgs/msg/detail/position_command__struct.hpp:228:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[12.018s]   228 |     [01;36m[KConstPtr[m[K;
+[12.019s]       |     [01;36m[K^~~~~~~~[m[K
+[12.056s] [01m[K/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/so3_control/src/so3_control_component.cpp:121:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[12.056s]   121 | void SO3ControlComponent::odom_callback(const nav_msgs::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K
+[12.056s]       |                                                                                      [01;35m[K^[m[K
+[12.056s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[12.056s]                  from [01m[K/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/so3_control/src/so3_control_component.cpp:2[m[K:
+[12.056s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:146:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[12.056s]   146 |     [01;36m[KConstPtr[m[K;
+[12.056s]       |     [01;36m[K^~~~~~~~[m[K
+[12.058s] [01m[K/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/so3_control/src/so3_control_component.cpp:172:90:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd_msgs::msg::Bool_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[12.058s]   172 | void SO3ControlComponent::enable_motors_callback(const std_msgs::msg::Bool::ConstPtr &msg[01;35m[K)[m[K
+[12.058s]       |                                                                                          [01;35m[K^[m[K
+[12.058s] In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/bool.hpp:7[m[K,
+[12.058s]                  from [01m[K/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/so3_control/src/so3_control_component.cpp:10[m[K:
+[12.058s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__struct.hpp:105:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[12.058s]   105 |     [01;36m[KConstPtr[m[K;
+[12.058s]       |     [01;36m[K^~~~~~~~[m[K
+[12.060s] [01m[K/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/so3_control/src/so3_control_component.cpp:183:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Kquadrotor_msgs::msg::Corrections_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[12.060s]   183 |     const quadrotor_msgs::msg::Corrections::ConstPtr &msg[01;35m[K)[m[K
+[12.060s]       |                                                          [01;35m[K^[m[K
+[12.060s] In file included from [01m[K/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/quadrotor_msgs/rosidl_generator_cpp/quadrotor_msgs/msg/corrections.hpp:7[m[K,
+[12.060s]                  from [01m[K/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/so3_control/src/so3_control_component.cpp:4[m[K:
+[12.060s] [01m[K/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/quadrotor_msgs/rosidl_generator_cpp/quadrotor_msgs/msg/detail/corrections__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[12.060s]   116 |     [01;36m[KConstPtr[m[K;
+[12.060s]       |     [01;36m[K^~~~~~~~[m[K
+[38.236s] [100%] [32m[1mLinking CXX shared library libso3_control_component.so[0m
+[38.693s] [100%] Built target so3_control_component

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "traj_utils__py",
+		"source" : "/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/traj_utils/traj_utils__py"
+	}
+}

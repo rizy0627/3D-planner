@@ -1,0 +1,125 @@
+[0.025s] Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/local_sensing': AMENT_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) LD_LIBRARY_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/local_sensing -DPython3_EXECUTABLE=/usr/bin/python3 -Dfmt_DIR=/usr/lib/x86_64-linux-gnu/cmake/fmt -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/local_sensing
+[0.091s] -- The C compiler identification is GNU 11.4.0
+[0.163s] -- The CXX compiler identification is GNU 11.4.0
+[0.171s] -- Detecting C compiler ABI info
+[0.254s] -- Detecting C compiler ABI info - done
+[0.260s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.260s] -- Detecting C compile features
+[0.260s] -- Detecting C compile features - done
+[0.263s] -- Detecting CXX compiler ABI info
+[0.365s] -- Detecting CXX compiler ABI info - done
+[0.370s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.370s] -- Detecting CXX compile features
+[0.370s] -- Detecting CXX compile features - done
+[0.380s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.822s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.894s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.921s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.956s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.963s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.970s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.977s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.992s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.028s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.031s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.047s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.056s] -- Looking for pthread.h
+[1.161s] -- Looking for pthread.h - found
+[1.161s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.270s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.271s] -- Found Threads: TRUE  
+[1.306s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[1.366s] -- Checking for module 'eigen3'
+[1.383s] --   Found eigen3, version 3.4.0
+[1.420s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.421s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.466s] -- Checking for module 'flann'
+[1.488s] --   Found flann, version 1.9.1
+[1.560s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.560s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.692s] -- Checking for module 'libusb-1.0'
+[2.720s] --   Found libusb-1.0, version 1.0.25
+[2.780s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.781s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.868s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.045s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.056s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.065s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.248s] -- Found Qhull version 8.0.2
+[3.478s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.692s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.693s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.693s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.694s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.696s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.696s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.696s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[3.697s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[3.697s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.699s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.699s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.700s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.701s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.702s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.703s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.703s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.705s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[3.706s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[3.706s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[3.707s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[3.711s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[3.711s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[3.711s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[3.711s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[3.711s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.755s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.755s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.756s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.856s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.868s] -- Found quadrotor_msgs: 0.0.0 (/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/cmake)
+[3.892s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time 
+[4.009s] -- Configuring done
+[4.071s] CMake Warning at CMakeLists.txt:127 (add_executable):
+[4.071s]   Cannot generate a safe runtime search path for target pcl_render_node
+[4.071s]   because files in some directories may conflict with libraries in implicit
+[4.071s]   directories:
+[4.071s] 
+[4.071s]     runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[4.071s]       /home/rizy/anaconda3/envs/myenv/lib
+[4.071s]     runtime library [libX11.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[4.072s]       /home/rizy/anaconda3/envs/myenv/lib
+[4.072s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[4.072s]       /home/rizy/anaconda3/envs/myenv/lib
+[4.072s] 
+[4.072s]   Some of these libraries may not be found correctly.
+[4.072s] 
+[4.072s] 
+[4.074s] -- Generating done
+[4.090s] -- Build files have been written to: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/local_sensing
+[4.161s] Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/local_sensing' returned '0': AMENT_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) LD_LIBRARY_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/local_sensing -DPython3_EXECUTABLE=/usr/bin/python3 -Dfmt_DIR=/usr/lib/x86_64-linux-gnu/cmake/fmt -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/local_sensing
+[4.165s] Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/local_sensing': AMENT_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) LD_LIBRARY_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/local_sensing -- -j32 -l32
+[4.300s] Consolidate compiler generated dependencies of target pcl_render_node
+[4.346s] [ 50%] Linking CXX executable pcl_render_node
+[5.162s] [100%] Built target pcl_render_node
+[5.179s] Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/local_sensing' returned '0': AMENT_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) LD_LIBRARY_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/local_sensing -- -j32 -l32
+[5.182s] Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/local_sensing': AMENT_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) LD_LIBRARY_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/local_sensing
+[5.193s] -- Install configuration: "Release"
+[5.194s] -- Execute custom install script
+[5.194s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/local_sensing/lib/local_sensing/pcl_render_node
+[5.194s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/local_sensing/share/local_sensing/config/camera.yaml
+[5.195s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/local_sensing/share/ament_index/resource_index/package_run_dependencies/local_sensing
+[5.195s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/local_sensing/share/ament_index/resource_index/parent_prefix_path/local_sensing
+[5.195s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/local_sensing/share/local_sensing/environment/ament_prefix_path.sh
+[5.195s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/local_sensing/share/local_sensing/environment/ament_prefix_path.dsv
+[5.195s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/local_sensing/share/local_sensing/environment/path.sh
+[5.195s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/local_sensing/share/local_sensing/environment/path.dsv
+[5.196s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/local_sensing/share/local_sensing/local_setup.bash
+[5.196s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/local_sensing/share/local_sensing/local_setup.sh
+[5.196s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/local_sensing/share/local_sensing/local_setup.zsh
+[5.196s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/local_sensing/share/local_sensing/local_setup.dsv
+[5.196s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/local_sensing/share/local_sensing/package.dsv
+[5.206s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/local_sensing/share/ament_index/resource_index/packages/local_sensing
+[5.206s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/local_sensing/share/local_sensing/cmake/local_sensingConfig.cmake
+[5.206s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/local_sensing/share/local_sensing/cmake/local_sensingConfig-version.cmake
+[5.206s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/local_sensing/share/local_sensing/package.xml
+[5.213s] Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/local_sensing' returned '0': AMENT_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs:/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) LD_LIBRARY_PATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/local_sensing

@@ -1,0 +1,437 @@
+[0.033s] Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/quadrotor_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/Utils/quadrotor_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs
+[0.058s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.153s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.157s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.173s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.174s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.177s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.188s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.207s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.216s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.232s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.233s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.242s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.261s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.540s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.835s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.961s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.973s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.984s] -- Using PYTHON_EXECUTABLE: /home/rizy/anaconda3/envs/myenv/bin/python3
+[0.984s] -- Using PYTHON_INCLUDE_DIRS: /home/rizy/anaconda3/envs/myenv/include/python3.10
+[0.984s] -- Using PYTHON_LIBRARIES: /home/rizy/anaconda3/envs/myenv/lib/libpython3.10.so
+[1.091s] -- Using numpy include directory: /home/rizy/.local/lib/python3.10/site-packages/numpy/core/include
+[1.100s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.108s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.109s] -- Configured cppcheck include dirs: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/Utils/quadrotor_msgs/include
+[1.109s] -- Configured cppcheck exclude dirs and/or files: 
+[1.109s] -- Added test 'lint_cmake' to check CMake code style
+[1.110s] -- Added test 'uncrustify' to check C / C++ code style
+[1.110s] -- Configured uncrustify additional arguments: 
+[1.110s] -- Added test 'xmllint' to check XML markup files
+[1.112s] -- Configuring done
+[1.147s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:166 (add_library):
+[1.147s]   Cannot generate a safe runtime search path for target
+[1.147s]   quadrotor_msgs__rosidl_generator_py because files in some directories may
+[1.147s]   conflict with libraries in implicit directories:
+[1.147s] 
+[1.147s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.147s]       /home/rizy/anaconda3/envs/myenv/lib
+[1.147s] 
+[1.147s]   Some of these libraries may not be found correctly.
+[1.147s] Call Stack (most recent call first):
+[1.147s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.147s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.147s]   CMakeLists.txt:20 (rosidl_generate_interfaces)
+[1.147s] 
+[1.147s] [0m
+[1.149s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+[1.149s]   Cannot generate a safe runtime search path for target
+[1.149s]   quadrotor_msgs__rosidl_typesupport_fastrtps_c__pyext because files in some
+[1.149s]   directories may conflict with libraries in implicit directories:
+[1.149s] 
+[1.149s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.149s]       /home/rizy/anaconda3/envs/myenv/lib
+[1.149s] 
+[1.149s]   Some of these libraries may not be found correctly.
+[1.149s] Call Stack (most recent call first):
+[1.149s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.149s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.149s]   CMakeLists.txt:20 (rosidl_generate_interfaces)
+[1.149s] 
+[1.150s] [0m
+[1.151s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+[1.151s]   Cannot generate a safe runtime search path for target
+[1.151s]   quadrotor_msgs__rosidl_typesupport_introspection_c__pyext because files in
+[1.151s]   some directories may conflict with libraries in implicit directories:
+[1.151s] 
+[1.151s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.151s]       /home/rizy/anaconda3/envs/myenv/lib
+[1.151s] 
+[1.151s]   Some of these libraries may not be found correctly.
+[1.151s] Call Stack (most recent call first):
+[1.151s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.152s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.152s]   CMakeLists.txt:20 (rosidl_generate_interfaces)
+[1.152s] 
+[1.152s] [0m
+[1.154s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+[1.154s]   Cannot generate a safe runtime search path for target
+[1.154s]   quadrotor_msgs__rosidl_typesupport_c__pyext because files in some
+[1.154s]   directories may conflict with libraries in implicit directories:
+[1.154s] 
+[1.154s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.154s]       /home/rizy/anaconda3/envs/myenv/lib
+[1.154s] 
+[1.154s]   Some of these libraries may not be found correctly.
+[1.154s] Call Stack (most recent call first):
+[1.154s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.154s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.154s]   CMakeLists.txt:20 (rosidl_generate_interfaces)
+[1.154s] 
+[1.154s] [0m
+[1.162s] -- Generating done
+[1.172s] -- Build files have been written to: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/quadrotor_msgs
+[1.182s] Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/quadrotor_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/Utils/quadrotor_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs
+[1.183s] Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/quadrotor_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake --build /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/quadrotor_msgs -- -j32 -l32
+[1.225s] [35m[1mConsolidate compiler generated dependencies of target quadrotor_msgs__rosidl_generator_c[0m
+[1.230s] [  0%] Built target quadrotor_msgs__cpp
+[1.238s] [35m[1mConsolidate compiler generated dependencies of target quadrotor_msgs__rosidl_typesupport_cpp[0m
+[1.239s] [35m[1mConsolidate compiler generated dependencies of target quadrotor_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.239s] [ 12%] Built target quadrotor_msgs__rosidl_generator_c
+[1.239s] [35m[1mConsolidate compiler generated dependencies of target quadrotor_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[1.239s] [ 12%] Built target ament_cmake_python_symlink_quadrotor_msgs
+[1.248s] [35m[1mConsolidate compiler generated dependencies of target quadrotor_msgs__rosidl_typesupport_c[0m
+[1.248s] [35m[1mConsolidate compiler generated dependencies of target quadrotor_msgs__rosidl_typesupport_introspection_c[0m
+[1.249s] [35m[1mConsolidate compiler generated dependencies of target quadrotor_msgs__rosidl_typesupport_fastrtps_c[0m
+[1.254s] [ 24%] Built target quadrotor_msgs__rosidl_typesupport_cpp
+[1.257s] [ 43%] Built target quadrotor_msgs__rosidl_typesupport_introspection_cpp
+[1.258s] [ 55%] Built target quadrotor_msgs__rosidl_typesupport_c
+[1.259s] [ 59%] Built target quadrotor_msgs__rosidl_typesupport_fastrtps_cpp
+[1.261s] [ 71%] Built target quadrotor_msgs__rosidl_typesupport_introspection_c
+[1.262s] [35m[1mConsolidate compiler generated dependencies of target encode_msgs[0m
+[1.262s] [35m[1mConsolidate compiler generated dependencies of target decode_msgs[0m
+[1.267s] [ 82%] Built target quadrotor_msgs__rosidl_typesupport_fastrtps_c
+[1.273s] [ 84%] Built target encode_msgs
+[1.274s] [ 85%] Built target decode_msgs
+[1.280s] [ 85%] Built target quadrotor_msgs
+[1.295s] [ 86%] Built target quadrotor_msgs__py
+[1.304s] [35m[1mConsolidate compiler generated dependencies of target quadrotor_msgs__rosidl_generator_py[0m
+[1.325s] [ 96%] Built target quadrotor_msgs__rosidl_generator_py
+[1.335s] [35m[1mConsolidate compiler generated dependencies of target quadrotor_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.336s] [35m[1mConsolidate compiler generated dependencies of target quadrotor_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[1.337s] [35m[1mConsolidate compiler generated dependencies of target quadrotor_msgs__rosidl_typesupport_c__pyext[0m
+[1.344s] [ 98%] Built target quadrotor_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.345s] [ 99%] Built target quadrotor_msgs__rosidl_typesupport_introspection_c__pyext
+[1.347s] [100%] Built target quadrotor_msgs__rosidl_typesupport_c__pyext
+[1.376s] running egg_info
+[1.384s] writing quadrotor_msgs.egg-info/PKG-INFO
+[1.384s] writing dependency_links to quadrotor_msgs.egg-info/dependency_links.txt
+[1.384s] writing top-level names to quadrotor_msgs.egg-info/top_level.txt
+[1.413s] reading manifest file 'quadrotor_msgs.egg-info/SOURCES.txt'
+[1.414s] writing manifest file 'quadrotor_msgs.egg-info/SOURCES.txt'
+[1.454s] [100%] Built target ament_cmake_python_build_quadrotor_msgs_egg
+[1.464s] Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/quadrotor_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake --build /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/quadrotor_msgs -- -j32 -l32
+[1.465s] Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/quadrotor_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake --install /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/quadrotor_msgs
+[1.470s] -- Install configuration: ""
+[1.470s] -- Execute custom install script
+[1.470s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/ament_index/resource_index/rosidl_interfaces/quadrotor_msgs
+[1.471s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/aux_command.h
+[1.471s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/corrections.h
+[1.471s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__functions.h
+[1.471s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__struct.h
+[1.471s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__type_support.h
+[1.471s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__functions.h
+[1.471s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__struct.h
+[1.471s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__type_support.h
+[1.471s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__functions.h
+[1.471s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__struct.h
+[1.472s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__type_support.h
+[1.472s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__functions.h
+[1.472s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__struct.h
+[1.472s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__type_support.h
+[1.472s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__functions.h
+[1.472s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__struct.h
+[1.472s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__type_support.h
+[1.472s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__functions.h
+[1.472s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__struct.h
+[1.472s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__type_support.h
+[1.472s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__functions.h
+[1.472s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__struct.h
+[1.472s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__type_support.h
+[1.472s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__functions.h
+[1.473s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__struct.h
+[1.473s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__type_support.h
+[1.473s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__functions.h
+[1.473s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__struct.h
+[1.473s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__type_support.h
+[1.473s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__functions.h
+[1.473s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__struct.h
+[1.473s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__type_support.h
+[1.473s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__functions.h
+[1.473s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__struct.h
+[1.473s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__type_support.h
+[1.473s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__functions.h
+[1.473s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__struct.h
+[1.473s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__type_support.h
+[1.474s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__functions.h
+[1.474s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__struct.h
+[1.474s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__type_support.h
+[1.474s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/gains.h
+[1.474s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/lqr_trajectory.h
+[1.474s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/odometry.h
+[1.474s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/output_data.h
+[1.474s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/polynomial_trajectory.h
+[1.474s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/position_command.h
+[1.474s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/ppr_output_data.h
+[1.474s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.474s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/serial.h
+[1.474s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/so3_command.h
+[1.474s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/status_data.h
+[1.475s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/trpy_command.h
+[1.475s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/environment/library_path.sh
+[1.475s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/environment/library_path.dsv
+[1.475s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__rosidl_typesupport_fastrtps_c.h
+[1.476s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__rosidl_typesupport_fastrtps_c.h
+[1.476s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__rosidl_typesupport_fastrtps_c.h
+[1.476s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__rosidl_typesupport_fastrtps_c.h
+[1.476s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__rosidl_typesupport_fastrtps_c.h
+[1.476s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__rosidl_typesupport_fastrtps_c.h
+[1.476s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__rosidl_typesupport_fastrtps_c.h
+[1.476s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__rosidl_typesupport_fastrtps_c.h
+[1.476s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__rosidl_typesupport_fastrtps_c.h
+[1.476s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__rosidl_typesupport_fastrtps_c.h
+[1.476s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__rosidl_typesupport_fastrtps_c.h
+[1.476s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__rosidl_typesupport_fastrtps_c.h
+[1.476s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__rosidl_typesupport_fastrtps_c.h
+[1.477s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.477s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/aux_command.hpp
+[1.477s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/corrections.hpp
+[1.477s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__builder.hpp
+[1.477s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__struct.hpp
+[1.477s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__traits.hpp
+[1.477s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__type_support.hpp
+[1.478s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__builder.hpp
+[1.478s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__struct.hpp
+[1.478s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__traits.hpp
+[1.478s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__type_support.hpp
+[1.478s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__builder.hpp
+[1.478s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__struct.hpp
+[1.478s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__traits.hpp
+[1.478s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__type_support.hpp
+[1.478s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__builder.hpp
+[1.478s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__struct.hpp
+[1.478s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__traits.hpp
+[1.478s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__type_support.hpp
+[1.478s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__builder.hpp
+[1.478s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__struct.hpp
+[1.479s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__traits.hpp
+[1.479s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__type_support.hpp
+[1.479s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__builder.hpp
+[1.479s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__struct.hpp
+[1.479s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__traits.hpp
+[1.479s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__type_support.hpp
+[1.479s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__builder.hpp
+[1.479s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__struct.hpp
+[1.479s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__traits.hpp
+[1.479s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__type_support.hpp
+[1.479s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__builder.hpp
+[1.479s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__struct.hpp
+[1.479s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__traits.hpp
+[1.479s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__type_support.hpp
+[1.479s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__builder.hpp
+[1.480s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__struct.hpp
+[1.480s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__traits.hpp
+[1.480s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__type_support.hpp
+[1.480s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__builder.hpp
+[1.480s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__struct.hpp
+[1.480s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__traits.hpp
+[1.480s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__type_support.hpp
+[1.480s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__builder.hpp
+[1.480s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__struct.hpp
+[1.480s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__traits.hpp
+[1.480s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__type_support.hpp
+[1.480s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__builder.hpp
+[1.480s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__struct.hpp
+[1.480s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__traits.hpp
+[1.481s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__type_support.hpp
+[1.481s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__builder.hpp
+[1.481s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__struct.hpp
+[1.481s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__traits.hpp
+[1.481s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__type_support.hpp
+[1.481s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/gains.hpp
+[1.481s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/lqr_trajectory.hpp
+[1.481s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/odometry.hpp
+[1.481s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/output_data.hpp
+[1.481s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/polynomial_trajectory.hpp
+[1.481s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/position_command.hpp
+[1.481s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/ppr_output_data.hpp
+[1.481s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.481s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/serial.hpp
+[1.481s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/so3_command.hpp
+[1.482s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/status_data.hpp
+[1.482s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/trpy_command.hpp
+[1.482s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__rosidl_typesupport_fastrtps_cpp.hpp
+[1.482s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__rosidl_typesupport_fastrtps_cpp.hpp
+[1.482s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__rosidl_typesupport_fastrtps_cpp.hpp
+[1.482s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[1.483s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__rosidl_typesupport_fastrtps_cpp.hpp
+[1.483s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__rosidl_typesupport_fastrtps_cpp.hpp
+[1.483s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[1.483s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__rosidl_typesupport_fastrtps_cpp.hpp
+[1.483s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__rosidl_typesupport_fastrtps_cpp.hpp
+[1.483s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__rosidl_typesupport_fastrtps_cpp.hpp
+[1.483s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__rosidl_typesupport_fastrtps_cpp.hpp
+[1.483s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__rosidl_typesupport_fastrtps_cpp.hpp
+[1.483s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__rosidl_typesupport_fastrtps_cpp.hpp
+[1.483s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.484s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__rosidl_typesupport_introspection_c.h
+[1.484s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__rosidl_typesupport_introspection_c.h
+[1.484s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__rosidl_typesupport_introspection_c.h
+[1.484s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__rosidl_typesupport_introspection_c.h
+[1.484s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__rosidl_typesupport_introspection_c.h
+[1.484s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__rosidl_typesupport_introspection_c.h
+[1.484s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__rosidl_typesupport_introspection_c.h
+[1.484s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__rosidl_typesupport_introspection_c.h
+[1.484s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__rosidl_typesupport_introspection_c.h
+[1.484s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__rosidl_typesupport_introspection_c.h
+[1.484s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__rosidl_typesupport_introspection_c.h
+[1.485s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__rosidl_typesupport_introspection_c.h
+[1.485s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__rosidl_typesupport_introspection_c.h
+[1.485s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.485s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__rosidl_typesupport_introspection_cpp.hpp
+[1.485s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__rosidl_typesupport_introspection_cpp.hpp
+[1.485s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__rosidl_typesupport_introspection_cpp.hpp
+[1.485s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[1.485s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__rosidl_typesupport_introspection_cpp.hpp
+[1.485s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__rosidl_typesupport_introspection_cpp.hpp
+[1.485s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[1.485s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__rosidl_typesupport_introspection_cpp.hpp
+[1.486s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__rosidl_typesupport_introspection_cpp.hpp
+[1.486s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__rosidl_typesupport_introspection_cpp.hpp
+[1.486s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__rosidl_typesupport_introspection_cpp.hpp
+[1.486s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__rosidl_typesupport_introspection_cpp.hpp
+[1.486s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__rosidl_typesupport_introspection_cpp.hpp
+[1.486s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/environment/pythonpath.sh
+[1.486s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/environment/pythonpath.dsv
+[1.486s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[1.486s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.486s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.486s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[1.487s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/__init__.py
+[1.487s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/_quadrotor_msgs_s.ep.rosidl_typesupport_c.c
+[1.487s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/_quadrotor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.487s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/_quadrotor_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.487s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/libquadrotor_msgs__rosidl_generator_py.so
+[1.487s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/__init__.py
+[1.487s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_aux_command.py
+[1.487s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_aux_command_s.c
+[1.487s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_corrections.py
+[1.488s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_corrections_s.c
+[1.488s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_gains.py
+[1.488s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_gains_s.c
+[1.488s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_lqr_trajectory.py
+[1.488s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_lqr_trajectory_s.c
+[1.488s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_odometry.py
+[1.488s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_odometry_s.c
+[1.488s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_output_data.py
+[1.488s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_output_data_s.c
+[1.488s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_polynomial_trajectory.py
+[1.488s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_polynomial_trajectory_s.c
+[1.488s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_position_command.py
+[1.488s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_position_command_s.c
+[1.488s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_ppr_output_data.py
+[1.488s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_ppr_output_data_s.c
+[1.489s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_serial.py
+[1.489s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_serial_s.c
+[1.489s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_so3_command.py
+[1.489s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_so3_command_s.c
+[1.489s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_status_data.py
+[1.489s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_status_data_s.c
+[1.489s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_trpy_command.py
+[1.489s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_trpy_command_s.c
+[1.489s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/quadrotor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.489s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/quadrotor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.489s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/quadrotor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.489s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/quadrotor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.489s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/quadrotor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.490s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/quadrotor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.490s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/msg/AuxCommand.idl
+[1.490s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/msg/Corrections.idl
+[1.490s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/msg/Gains.idl
+[1.490s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/msg/LQRTrajectory.idl
+[1.490s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/msg/OutputData.idl
+[1.490s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/msg/PositionCommand.idl
+[1.490s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/msg/PPROutputData.idl
+[1.490s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/msg/Serial.idl
+[1.490s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/msg/SO3Command.idl
+[1.490s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/msg/StatusData.idl
+[1.490s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/msg/TRPYCommand.idl
+[1.491s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/msg/Odometry.idl
+[1.491s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/msg/PolynomialTrajectory.idl
+[1.491s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/msg/AuxCommand.msg
+[1.491s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/msg/Corrections.msg
+[1.491s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/msg/Gains.msg
+[1.491s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/msg/LQRTrajectory.msg
+[1.491s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/msg/OutputData.msg
+[1.491s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/msg/PositionCommand.msg
+[1.491s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/msg/PPROutputData.msg
+[1.491s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/msg/Serial.msg
+[1.491s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/msg/SO3Command.msg
+[1.491s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/msg/StatusData.msg
+[1.492s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/msg/TRPYCommand.msg
+[1.492s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/msg/Odometry.msg
+[1.492s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/msg/PolynomialTrajectory.msg
+[1.492s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/libdecode_msgs.so
+[1.492s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/libencode_msgs.so
+[1.492s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/ament_index/resource_index/package_run_dependencies/quadrotor_msgs
+[1.492s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/ament_index/resource_index/parent_prefix_path/quadrotor_msgs
+[1.492s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/environment/ament_prefix_path.sh
+[1.492s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/environment/ament_prefix_path.dsv
+[1.492s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/environment/path.sh
+[1.492s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/environment/path.dsv
+[1.492s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/local_setup.bash
+[1.493s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/local_setup.sh
+[1.493s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/local_setup.zsh
+[1.493s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/local_setup.dsv
+[1.493s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/package.dsv
+[1.499s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/ament_index/resource_index/packages/quadrotor_msgs
+[1.500s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/cmake/rosidl_cmake-extras.cmake
+[1.500s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.500s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.500s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.500s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.500s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.500s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.500s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgsConfig.cmake
+[1.500s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgsConfig-version.cmake
+[1.500s] -- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/package.xml
+[1.501s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_generator_c.so
+[1.501s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_typesupport_fastrtps_c.so
+[1.501s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.501s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_typesupport_introspection_c.so
+[1.501s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_typesupport_c.so
+[1.501s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_typesupport_introspection_cpp.so
+[1.502s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_typesupport_cpp.so
+[1.531s] Listing '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs'...
+[1.531s] Compiling '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/__init__.py'...
+[1.531s] Listing '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg'...
+[1.534s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_generator_py.so
+[1.534s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/cmake/export_quadrotor_msgs__rosidl_generator_cExport.cmake
+[1.534s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/cmake/export_quadrotor_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.534s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/cmake/export_quadrotor_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.535s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/cmake/export_quadrotor_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.535s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/cmake/export_quadrotor_msgs__rosidl_generator_cppExport.cmake
+[1.535s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/cmake/export_quadrotor_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.535s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/cmake/export_quadrotor_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.535s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.535s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.535s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_typesupport_cExport.cmake
+[1.535s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.535s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.535s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.535s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_typesupport_cppExport.cmake
+[1.535s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.535s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/cmake/export_quadrotor_msgs__rosidl_generator_pyExport.cmake
+[1.535s] -- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/quadrotor_msgs/share/quadrotor_msgs/cmake/export_quadrotor_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.537s] Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/quadrotor_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake --install /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/quadrotor_msgs

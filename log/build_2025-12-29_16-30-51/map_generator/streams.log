@@ -1,0 +1,217 @@
+[0.030s] Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/map_generator': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/map_generator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/map_generator
+[0.097s] -- The C compiler identification is GNU 11.4.0
+[0.157s] -- The CXX compiler identification is GNU 11.4.0
+[0.162s] -- Detecting C compiler ABI info
+[0.252s] -- Detecting C compiler ABI info - done
+[0.257s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.257s] -- Detecting C compile features
+[0.258s] -- Detecting C compile features - done
+[0.262s] -- Detecting CXX compiler ABI info
+[0.354s] -- Detecting CXX compiler ABI info - done
+[0.358s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.358s] -- Detecting CXX compile features
+[0.359s] -- Detecting CXX compile features - done
+[0.361s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.697s] -- Found Python3: /home/rizy/anaconda3/envs/myenv/bin/python3 (found version "3.10.19") found components: Interpreter 
+[0.758s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.788s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.820s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.823s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.833s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.841s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.854s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.895s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.899s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.917s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.929s] -- Looking for pthread.h
+[1.102s] -- Looking for pthread.h - found
+[1.102s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.248s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.249s] -- Found Threads: TRUE  
+[1.304s] -- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)
+[1.306s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.339s] -- Checking for module 'eigen3'
+[1.363s] --   Found eigen3, version 3.4.0
+[1.429s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.429s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.455s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[1.480s] -- Checking for module 'flann'
+[1.507s] --   Found flann, version 1.9.1
+[1.620s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.620s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.663s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[1.679s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[1.924s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[1.924s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[1.928s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[1.953s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.977s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[1.988s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[2.188s] -- Found X11: /usr/include   
+[2.188s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[2.342s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[2.343s] -- Looking for gethostbyname
+[2.482s] -- Looking for gethostbyname - found
+[2.482s] -- Looking for connect
+[2.620s] -- Looking for connect - found
+[2.621s] -- Looking for remove
+[2.724s] -- Looking for remove - found
+[2.725s] -- Looking for shmat
+[2.823s] -- Looking for shmat - found
+[2.824s] -- Looking for IceConnectionNumber in ICE
+[2.942s] -- Looking for IceConnectionNumber in ICE - found
+[3.127s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[3.128s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[3.130s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[3.131s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[3.144s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[3.153s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[3.156s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[3.168s] -- Found utf8cpp: /usr/include/utf8cpp  
+[3.272s] -- Checking for module 'libusb-1.0'
+[3.303s] --   Found libusb-1.0, version 1.0.25
+[3.383s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.383s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[3.384s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.490s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[3.490s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.490s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[3.752s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.761s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.769s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.021s] -- Found Qhull version 8.0.2
+[4.291s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.637s] -- looking for PCL_COMMON
+[4.639s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[4.639s] -- looking for PCL_KDTREE
+[4.649s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[4.650s] -- looking for PCL_OCTREE
+[4.655s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[4.655s] -- looking for PCL_SEARCH
+[4.660s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[4.660s] -- looking for PCL_SAMPLE_CONSENSUS
+[4.663s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[4.663s] -- looking for PCL_FILTERS
+[4.664s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[4.664s] -- looking for PCL_2D
+[4.665s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[4.665s] -- looking for PCL_GEOMETRY
+[4.665s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[4.665s] -- looking for PCL_IO
+[4.666s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[4.667s] -- looking for PCL_FEATURES
+[4.672s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[4.672s] -- looking for PCL_ML
+[4.672s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[4.672s] -- looking for PCL_SEGMENTATION
+[4.672s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[4.672s] -- looking for PCL_VISUALIZATION
+[4.672s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[4.672s] -- looking for PCL_SURFACE
+[4.673s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[4.673s] -- looking for PCL_REGISTRATION
+[4.674s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[4.674s] -- looking for PCL_KEYPOINTS
+[4.675s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[4.675s] -- looking for PCL_TRACKING
+[4.676s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[4.676s] -- looking for PCL_RECOGNITION
+[4.679s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[4.679s] -- looking for PCL_STEREO
+[4.679s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[4.679s] -- looking for PCL_APPS
+[4.679s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[4.679s] -- looking for PCL_IN_HAND_SCANNER
+[4.679s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[4.679s] -- looking for PCL_MODELER
+[4.679s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[4.680s] -- looking for PCL_POINT_CLOUD_EDITOR
+[4.680s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[4.680s] -- looking for PCL_OUTOFCORE
+[4.680s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[4.681s] -- looking for PCL_PEOPLE
+[4.682s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[4.685s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[4.685s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[4.745s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[4.776s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.013s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.015s] -- Configured cppcheck include dirs: 
+[5.015s] -- Configured cppcheck exclude dirs and/or files: 
+[5.015s] -- Added test 'lint_cmake' to check CMake code style
+[5.015s] -- Added test 'uncrustify' to check C / C++ code style
+[5.015s] -- Configured uncrustify additional arguments: 
+[5.015s] -- Added test 'xmllint' to check XML markup files
+[5.019s] -- Configuring done
+[5.087s] [33mCMake Warning at CMakeLists.txt:51 (add_executable):
+[5.087s]   Cannot generate a safe runtime search path for target random_forest because
+[5.087s]   files in some directories may conflict with libraries in implicit
+[5.087s]   directories:
+[5.087s] 
+[5.087s]     runtime library [libpng16.so.16] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.087s]       /home/rizy/anaconda3/lib
+[5.087s]     runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.087s]       /home/rizy/anaconda3/lib
+[5.088s]     runtime library [libfreetype.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.088s]       /home/rizy/anaconda3/lib
+[5.088s]     runtime library [libX11.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.088s]       /home/rizy/anaconda3/lib
+[5.088s]     runtime library [libQt5OpenGL.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.088s]       /home/rizy/anaconda3/lib
+[5.088s]     runtime library [libQt5Widgets.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.088s]       /home/rizy/anaconda3/lib
+[5.088s]     runtime library [libQt5Gui.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.088s]       /home/rizy/anaconda3/lib
+[5.088s]     runtime library [libEGL.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.088s]       /home/rizy/anaconda3/lib
+[5.088s]     runtime library [libGL.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.088s]       /home/rizy/anaconda3/lib
+[5.088s]     runtime library [libQt5Core.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.088s]       /home/rizy/anaconda3/lib
+[5.088s]     runtime library [libtbb.so.12] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.088s]       /home/rizy/anaconda3/lib
+[5.088s] 
+[5.088s]   Some of these libraries may not be found correctly.
+[5.088s] 
+[5.088s] [0m
+[5.088s] [33mCMake Warning at CMakeLists.txt:51 (add_executable):
+[5.092s]   Cannot generate a safe dependent library path for target random_forest
+[5.092s]   because files in some directories may conflict with libraries in implicit
+[5.092s]   directories:
+[5.092s] 
+[5.092s]     runtime library [libEGL.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.092s]       /home/rizy/anaconda3/lib
+[5.092s]     runtime library [libGL.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.092s]       /home/rizy/anaconda3/lib
+[5.092s] 
+[5.092s]   Some of these libraries may not be found correctly.
+[5.092s] 
+[5.092s] [0m
+[5.092s] -- Generating done
+[5.105s] -- Build files have been written to: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/map_generator
+[5.183s] Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/map_generator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/map_generator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/map_generator
+[5.186s] Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/map_generator': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake --build /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/map_generator -- -j32 -l32
+[5.297s] [ 50%] [32mBuilding CXX object CMakeFiles/random_forest.dir/src/random_forest_sensing.cpp.o[0m
+[32.899s] [100%] [32m[1mLinking CXX executable random_forest[0m
+[33.301s] [100%] Built target random_forest
+[33.311s] Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/map_generator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake --build /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/map_generator -- -j32 -l32
+[33.313s] Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/map_generator': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake --install /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/map_generator
+[33.318s] -- Install configuration: "Release"
+[33.319s] -- Execute custom install script
+[33.319s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/map_generator/lib/map_generator/random_forest
+[33.326s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/map_generator/share/ament_index/resource_index/package_run_dependencies/map_generator
+[33.336s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/map_generator/share/ament_index/resource_index/parent_prefix_path/map_generator
+[33.349s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/map_generator/share/map_generator/environment/ament_prefix_path.sh
+[33.356s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/map_generator/share/map_generator/environment/ament_prefix_path.dsv
+[33.363s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/map_generator/share/map_generator/environment/path.sh
+[33.369s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/map_generator/share/map_generator/environment/path.dsv
+[33.374s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/map_generator/share/map_generator/local_setup.bash
+[33.380s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/map_generator/share/map_generator/local_setup.sh
+[33.387s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/map_generator/share/map_generator/local_setup.zsh
+[33.393s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/map_generator/share/map_generator/local_setup.dsv
+[33.399s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/map_generator/share/map_generator/package.dsv
+[33.408s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/map_generator/share/ament_index/resource_index/packages/map_generator
+[33.416s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/map_generator/share/map_generator/cmake/map_generatorConfig.cmake
+[33.424s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/map_generator/share/map_generator/cmake/map_generatorConfig-version.cmake
+[33.437s] -- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/map_generator/share/map_generator/package.xml
+[33.446s] Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/map_generator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake --install /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/map_generator

@@ -1,0 +1,52 @@
+[33mCMake Warning at CMakeLists.txt:127 (add_executable):
+  Cannot generate a safe runtime search path for target pcl_render_node
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libpng16.so.16] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/lib
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/lib
+      /home/rizy/anaconda3/envs/myenv/lib
+    runtime library [libfreetype.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/lib
+    runtime library [libX11.so.6] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/lib
+      /home/rizy/anaconda3/envs/myenv/lib
+    runtime library [libQt5OpenGL.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/lib
+    runtime library [libQt5Widgets.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/lib
+    runtime library [libQt5Gui.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/lib
+    runtime library [libEGL.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/lib
+    runtime library [libGL.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/lib
+    runtime library [libQt5Core.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/lib
+    runtime library [libtbb.so.12] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/lib
+    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/envs/myenv/lib
+
+  Some of these libraries may not be found correctly.
+
+[0m
+[33mCMake Warning at CMakeLists.txt:127 (add_executable):
+  Cannot generate a safe dependent library path for target pcl_render_node
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libEGL.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/lib
+    runtime library [libGL.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rizy/anaconda3/lib
+
+  Some of these libraries may not be found correctly.
+
+[0m
+[01m[K/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/local_sensing/src/pointcloud_render_node.cpp:[m[K In function ‘[01m[Kvoid rcvLocalPointCloudCallBack(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/uav_simulator/local_sensing/src/pointcloud_render_node.cpp:167:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpointcloud_map[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  167 |     [01;35m[Kconst sensor_msgs::msg::PointCloud2::SharedPtr pointcloud_map[m[K) {
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K

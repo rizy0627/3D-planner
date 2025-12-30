@@ -1,0 +1,57 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found message_filters: 4.3.11 (/opt/ros/humble/share/message_filters/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/drone_detect/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/drone_detect
+[35m[1mConsolidate compiler generated dependencies of target drone_detect[0m
+[100%] Built target drone_detect
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/drone_detect/lib/drone_detect/drone_detect
+-- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/drone_detect/share/drone_detect/doc/demo.jpg
+-- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/drone_detect/share/drone_detect/doc/example.jpg
+-- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/drone_detect/share/drone_detect/launch/drone_detect.launch.py
+-- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/drone_detect/share/drone_detect/launch/ros_package_template_overlying_params.launch.py
+-- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/drone_detect/share/drone_detect/config/camera.yaml
+-- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/drone_detect/share/drone_detect/config/default.yaml
+-- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/drone_detect/share/ament_index/resource_index/package_run_dependencies/drone_detect
+-- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/drone_detect/share/ament_index/resource_index/parent_prefix_path/drone_detect
+-- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/drone_detect/share/drone_detect/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/drone_detect/share/drone_detect/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/drone_detect/share/drone_detect/environment/path.sh
+-- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/drone_detect/share/drone_detect/environment/path.dsv
+-- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/drone_detect/share/drone_detect/local_setup.bash
+-- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/drone_detect/share/drone_detect/local_setup.sh
+-- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/drone_detect/share/drone_detect/local_setup.zsh
+-- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/drone_detect/share/drone_detect/local_setup.dsv
+-- Symlinking: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/drone_detect/share/drone_detect/package.dsv
+-- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/drone_detect/share/ament_index/resource_index/packages/drone_detect
+-- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/drone_detect/share/drone_detect/cmake/drone_detectConfig.cmake
+-- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/drone_detect/share/drone_detect/cmake/drone_detectConfig-version.cmake
+-- Up-to-date symlink: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/drone_detect/share/drone_detect/package.xml
+-- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/drone_detect/include/drone_detect
+-- Up-to-date: /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/drone_detect/include/drone_detect/drone_detector.h

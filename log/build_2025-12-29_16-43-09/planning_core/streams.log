@@ -1,0 +1,11 @@
+[0.034s] Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/planning_core': CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake --build /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/planning_core -- -j32 -l32
+[0.090s] [  4%] Built target map_manager
+[0.090s] [  8%] Built target a_star_search
+[0.105s] [ 45%] Built target common_smoothing
+[0.122s] [ 50%] Built target py_map_manager
+[0.124s] [ 54%] Built target a_star
+[0.157s] [ 86%] Built target gpmp_optimizer
+[0.183s] [ 91%] Built target ele_planner_lib
+[0.189s] [ 95%] Built target traj_opt
+[0.204s] [100%] Built target ele_planner
+[0.264s] Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/planning_core' returned '0': CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake --build /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/planning_core -- -j32 -l32

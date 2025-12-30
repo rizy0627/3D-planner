@@ -1,0 +1,69 @@
+[0.000000] (-) TimerEvent: {}
+[0.000160] (-) JobUnselected: {'identifier': 'bspline_opt'}
+[0.000290] (-) JobUnselected: {'identifier': 'cmake_utils'}
+[0.000359] (-) JobUnselected: {'identifier': 'drone_detect'}
+[0.000381] (-) JobUnselected: {'identifier': 'ego_planner'}
+[0.000399] (-) JobUnselected: {'identifier': 'local_sensing'}
+[0.000411] (-) JobUnselected: {'identifier': 'map_generator'}
+[0.000421] (-) JobUnselected: {'identifier': 'mockamap'}
+[0.000563] (-) JobUnselected: {'identifier': 'multi_map_server'}
+[0.000588] (-) JobUnselected: {'identifier': 'odom_visualization'}
+[0.000598] (-) JobUnselected: {'identifier': 'path_searching'}
+[0.000609] (-) JobUnselected: {'identifier': 'plan_env'}
+[0.000618] (-) JobUnselected: {'identifier': 'planning_core'}
+[0.000628] (-) JobUnselected: {'identifier': 'poscmd_2_odom'}
+[0.000637] (-) JobUnselected: {'identifier': 'pose_utils'}
+[0.000647] (-) JobUnselected: {'identifier': 'quadrotor_msgs'}
+[0.000658] (-) JobUnselected: {'identifier': 'rosmsg_tcp_bridge'}
+[0.000668] (-) JobUnselected: {'identifier': 'so3_control'}
+[0.000679] (-) JobUnselected: {'identifier': 'so3_quadrotor_simulator'}
+[0.000776] (-) JobUnselected: {'identifier': 'traj_utils'}
+[0.000798] (-) JobUnselected: {'identifier': 'uav_utils'}
+[0.000809] (-) JobUnselected: {'identifier': 'waypoint_generator'}
+[0.000826] (nav_integration) JobQueued: {'identifier': 'nav_integration', 'dependencies': OrderedDict()}
+[0.000848] (nav_integration) JobStarted: {'identifier': 'nav_integration'}
+[0.099714] (-) TimerEvent: {}
+[0.201387] (-) TimerEvent: {}
+[0.301722] (-) TimerEvent: {}
+[0.402025] (-) TimerEvent: {}
+[0.502730] (-) TimerEvent: {}
+[0.603803] (-) TimerEvent: {}
+[0.704926] (-) TimerEvent: {}
+[0.712481] (nav_integration) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/nav_integration/build', '--no-deps', 'symlink_data'], 'cwd': '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/nav_integration', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/rizy', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'CONDA_PROMPT_MODIFIER': '(myenv)', 'LANGUAGE': 'zh_CN:en', 'USER': 'rizy', 'LC_TIME': 'zh_CN.UTF-8', 'VSCODE_NLS_CONFIG': '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/cursor/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/rizy/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn/tcf.json","messagesFile":"/home/rizy/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn/6b030be1a256f7464cbd98e48627a802a4831bf0/nls.messages.json","corruptMarkerFile":"/home/rizy/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/rizy/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn/tcf.json","_cacheRoot":"/home/rizy/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn","_resolvedLanguagePackCoreLocation":"/home/rizy/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn/6b030be1a256f7464cbd98e48627a802a4831bf0","_corruptedFile":"/home/rizy/.config/Cursor/clp/3bfb7f1471a52e527cfc1587dd57c7c1.zh-cn/corrupted.info"}', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/cuda-12.8/lib64:/usr/local/cuda-12.8/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rizy', 'CHROME_DESKTOP': 'cursor.desktop', 'CONDA_SHLVL': '4', 'OLDPWD': '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/nav_integration', 'DESKTOP_SESSION': 'ubuntu', 'VSCODE_IPC_HOOK': '/run/user/1000/vscode-48ac9a66-2.2.-main.sock', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/cursor.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'zh_CN.UTF-8', 'MANAGERPID': '2196', 'SYSTEMD_EXEC_PID': '9164', 'NO_COLOR': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_CE_M': '', '_CONDA_ROOT': '/home/rizy/anaconda3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '31486', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'WAYLAND_DISPLAY': 'wayland-0', 'VSCODE_L10N_BUNDLE_LOCATION': 'file:///home/rizy/.cursor/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.105.0-universal/translations/extensions/vscode.markdown-language-features.i18n.json', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'rizy', 'FORCE_COLOR': '0', 'JOURNAL_STREAM': '8:58957', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rizy', 'TERM': 'dumb', 'EVERYSPHERE_RIPGREP_PATH': '/usr/share/cursor/resources/app/node_modules/@vscode/ripgrep/bin/rg', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'COMPOSER_NO_INTERACTION': '1', 'WINDOWPATH': '2', 'PATH': '/home/rizy/.local/bin:/home/rizy/anaconda3/envs/myenv/bin:/usr/local/cuda-12.8/bin:/home/rizy/.local/bin:/home/rizy/anaconda3/bin:/home/rizy/anaconda3/condabin:/home/rizy/anaconda3/bin:/usr/local/cuda-12.8/bin:/opt/ros/humble/bin:/home/rizy/.local/bin:/home/rizy/.local/bin:/home/rizy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/rizy/.fishros/bin:/home/rizy/.fishros/bin/', 'SESSION_MANAGER': 'local/rizy:@/tmp/.ICE-unix/9135,unix/rizy:/tmp/.ICE-unix/9135', 'INVOCATION_ID': '8dd6d65848d44c668e493f90565a9606', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'VSCODE_PROCESS_TITLE': 'extension-host  [6-7]', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'CURSOR_AGENT': '1', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'CONDA_PREFIX_1': '/home/rizy/anaconda3', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.23GRI3', 'LS_COLORS': '', 'CONDA_PREFIX_2': '/home/rizy/anaconda3/envs/myenv', 'CURSOR_TRACE_ID': '4dc044125be8437c8ed0a19c21ad5e8e', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/rizy/anaconda3/bin/python', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'CONDA_PREFIX_3': '/home/rizy/anaconda3', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'myenv', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/rizy/anaconda3/bin/conda', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/nav_integration', 'QT_QPA_PLATFORM': 'xcb', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'CONDA_EXE': '/home/rizy/anaconda3/bin/conda', 'VSCODE_CODE_CACHE_PATH': '/home/rizy/.config/Cursor/CachedData/6b030be1a256f7464cbd98e48627a802a4831bf0', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/nav_integration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'CONDA_PREFIX': '/home/rizy/anaconda3/envs/myenv', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', '_ZO_DOCTOR': '0', 'VSCODE_PID': '31486'}, 'shell': False}
+[0.805202] (-) TimerEvent: {}
+[0.861830] (nav_integration) StderrLine: {'line': b"/home/rizy/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[0.862167] (nav_integration) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[0.905310] (-) TimerEvent: {}
+[0.990552] (nav_integration) StdoutLine: {'line': b'running develop\n'}
+[1.005391] (-) TimerEvent: {}
+[1.105550] (-) TimerEvent: {}
+[1.139542] (nav_integration) StdoutLine: {'line': b'running egg_info\n'}
+[1.147584] (nav_integration) StdoutLine: {'line': b'creating nav_integration.egg-info\n'}
+[1.147674] (nav_integration) StdoutLine: {'line': b'writing nav_integration.egg-info/PKG-INFO\n'}
+[1.148337] (nav_integration) StdoutLine: {'line': b'writing dependency_links to nav_integration.egg-info/dependency_links.txt\n'}
+[1.148679] (nav_integration) StdoutLine: {'line': b'writing entry points to nav_integration.egg-info/entry_points.txt\n'}
+[1.148792] (nav_integration) StdoutLine: {'line': b'writing requirements to nav_integration.egg-info/requires.txt\n'}
+[1.148885] (nav_integration) StdoutLine: {'line': b'writing top-level names to nav_integration.egg-info/top_level.txt\n'}
+[1.149364] (nav_integration) StdoutLine: {'line': b"writing manifest file 'nav_integration.egg-info/SOURCES.txt'\n"}
+[1.165463] (nav_integration) StdoutLine: {'line': b"reading manifest file 'nav_integration.egg-info/SOURCES.txt'\n"}
+[1.166775] (nav_integration) StdoutLine: {'line': b"writing manifest file 'nav_integration.egg-info/SOURCES.txt'\n"}
+[1.177889] (nav_integration) StdoutLine: {'line': b'running build_ext\n'}
+[1.178018] (nav_integration) StdoutLine: {'line': b'Creating /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/lib/python3.10/site-packages/nav-integration.egg-link (link to .)\n'}
+[1.178669] (nav_integration) StdoutLine: {'line': b'Installing map_server script to /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/lib/nav_integration\n'}
+[1.178914] (nav_integration) StdoutLine: {'line': b'\n'}
+[1.178949] (nav_integration) StdoutLine: {'line': b'Installed /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/nav_integration\n'}
+[1.179003] (nav_integration) StdoutLine: {'line': b'running symlink_data\n'}
+[1.179140] (nav_integration) StdoutLine: {'line': b'creating /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/share/ament_index/resource_index/packages\n'}
+[1.179443] (nav_integration) StdoutLine: {'line': b'symbolically linking /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/nav_integration/resource/nav_integration -> /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/share/ament_index/resource_index/packages\n'}
+[1.179621] (nav_integration) StdoutLine: {'line': b'symbolically linking /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/nav_integration/package.xml -> /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/share/nav_integration\n'}
+[1.179982] (nav_integration) StdoutLine: {'line': b'creating /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/share/nav_integration/launch\n'}
+[1.180220] (nav_integration) StdoutLine: {'line': b'symbolically linking /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/nav_integration/launch/bringup_map.launch.py -> /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/share/nav_integration/launch\n'}
+[1.180431] (nav_integration) StdoutLine: {'line': b'creating /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/share/nav_integration/config\n'}
+[1.180630] (nav_integration) StdoutLine: {'line': b'creating /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/share/nav_integration/urdf\n'}
+[1.180739] (nav_integration) StdoutLine: {'line': b'symbolically linking /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/nav_integration/urdf/robot.urdf -> /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/share/nav_integration/urdf\n'}
+[1.180831] (nav_integration) StdoutLine: {'line': b'creating /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/share/nav_integration/rviz\n'}
+[1.180990] (nav_integration) StdoutLine: {'line': b'symbolically linking /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/nav_integration/rviz/nav.rviz -> /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/share/nav_integration/rviz\n'}
+[1.205838] (-) TimerEvent: {}
+[1.244480] (nav_integration) CommandEnded: {'returncode': 0}
+[1.259733] (nav_integration) JobEnded: {'identifier': 'nav_integration', 'rc': 0}
+[1.260179] (-) EventReactorShutdown: {}

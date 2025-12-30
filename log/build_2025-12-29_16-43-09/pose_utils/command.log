@@ -1,0 +1,4 @@
+Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/pose_utils': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake --build /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/pose_utils -- -j32 -l32
+Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/pose_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake --build /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/pose_utils -- -j32 -l32
+Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/pose_utils': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake --install /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/pose_utils
+Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/pose_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake --install /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/pose_utils

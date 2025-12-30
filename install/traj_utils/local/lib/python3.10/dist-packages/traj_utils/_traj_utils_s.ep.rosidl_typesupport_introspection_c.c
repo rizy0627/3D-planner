@@ -1,0 +1,1 @@
+/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/traj_utils/rosidl_generator_py/traj_utils/_traj_utils_s.ep.rosidl_typesupport_introspection_c.c

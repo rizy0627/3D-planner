@@ -1,0 +1,1 @@
+/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/quadrotor_msgs/rosidl_typesupport_fastrtps_c/quadrotor_msgs/msg/detail/trpy_command__rosidl_typesupport_fastrtps_c.h
