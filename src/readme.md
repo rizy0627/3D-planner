@@ -21,3 +21,5 @@ ros2 launch ego_planner swarm_large.launch.py
 ### use_mockamap:地图生成方式，默认为False，False时使用Random Forest, True时使用mockamap
 ### use_dynamic:是否考虑动力学，默认为False, False时不考虑, True时考虑
 ros2 launch ego_planner single_run_in_sim.launch.py use_mockamap:=True use_dynamic:=False
+
+ros2 launch nav_integration simulation_phase1.launch.py
