@@ -1,7 +1,6 @@
 *.stl
 *.obj
 *.ply
-*.pcd
 *.npy
 *.pyc
 *.pickle
