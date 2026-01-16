@@ -7,7 +7,7 @@ from rclpy.node import Node
 from rclpy.qos import QoSProfile, QoSDurabilityPolicy, QoSReliabilityPolicy
 
 from nav_msgs.msg import Path
-from geometry_msgs.msg import PointStamped   # 新增
+from geometry_msgs.msg import PointStamped, PoseWithCovarianceStamped, PoseStamped  # 修改
 
 from utils import traj2ros
 from planner_wrapper import TomogramPlanner
@@ -30,7 +30,11 @@ class PCTPlanner(Node):
         )
 
         self.path_pub = self.create_publisher(Path, "/pct/global_path", qos)
-        self.click_sub = self.create_subscription(PointStamped, "/clicked_point", self.clicked_point_callback, 10)
+        # self.click_sub = self.create_subscription(PointStamped, "/clicked_point", self.clicked_point_callback, 10)
+        
+        # New subscribers for 2D Pose Estimate and 2D Goal Pose
+        self.initial_pose_sub = self.create_subscription(PoseWithCovarianceStamped, "/initialpose", self.initial_pose_callback, 10)
+        self.goal_pose_sub = self.create_subscription(PoseStamped, "/goal_pose", self.goal_pose_callback, 10)
 
         self.planner = TomogramPlanner(cfg)
         self.planner.loadTomogram(self.tomo_file, self.step_max)
@@ -40,25 +44,51 @@ class PCTPlanner(Node):
         self.end_pos = None
         self.end_layer = None
 
-        self.get_logger().info("Waiting for two clicked points in RViz...")
+        self.get_logger().info("Waiting for 2D Pose Estimate (Start) and 2D Goal Pose (End) in RViz...")
 
-    def clicked_point_callback(self, msg):
-        point = np.array([msg.point.x, msg.point.y, msg.point.z], dtype=np.float32)
+    def initial_pose_callback(self, msg):
+        """Handle 2D Pose Estimate from RViz for Start Pose"""
+        point = np.array([msg.pose.pose.position.x, msg.pose.pose.position.y, msg.pose.pose.position.z], dtype=np.float32)
+        
+        self.start_pos = point[:2]
+        self.start_layer = self.planner.height2layer(point[2])
+        self.get_logger().info(f"🟢 Start pose set to: {self.start_pos}, Layer: {self.start_layer}")
+        
+        # Reset end pose when new start is set
+        self.end_pos = None
+        self.end_layer = None
 
+    def goal_pose_callback(self, msg):
+        """Handle 2D Goal Pose from RViz for End Pose"""
+        point = np.array([msg.pose.position.x, msg.pose.position.y, msg.pose.position.z], dtype=np.float32)
+        
         if self.start_pos is None:
-            self.start_pos = point[:2]
-            self.start_layer = self.planner.height2layer(point[2])
-            self.get_logger().info(f"🟢 Start point set to: {self.start_pos}")
-        elif self.end_pos is None:
-            self.end_pos = point[:2]
-            self.end_layer = self.planner.height2layer(point[2])
-            self.get_logger().info(f"🔴 End point set to: {self.end_pos}")
-            self.pct_plan()
-        else:
-            self.get_logger().info("♻️ Resetting start/end points...")
-            self.start_pos = point[:2]
-            self.start_layer = self.planner.height2layer(point[2])
-            self.end_pos = None
+            self.get_logger().warn("⚠️ Please set Initial Pose (Start) first using '2D Pose Estimate' tool.")
+            return
+
+        self.end_pos = point[:2]
+        self.end_layer = self.planner.height2layer(point[2])
+        self.get_logger().info(f"🔴 End pose set to: {self.end_pos}, Layer: {self.end_layer}")
+        
+        self.pct_plan()
+
+    # def clicked_point_callback(self, msg):
+    #     point = np.array([msg.point.x, msg.point.y, msg.point.z], dtype=np.float32)
+    #
+    #     if self.start_pos is None:
+    #         self.start_pos = point[:2]
+    #         self.start_layer = self.planner.height2layer(point[2])
+    #         self.get_logger().info(f"🟢 Start point set to: {self.start_pos}")
+    #     elif self.end_pos is None:
+    #         self.end_pos = point[:2]
+    #         self.end_layer = self.planner.height2layer(point[2])
+    #         self.get_logger().info(f"🔴 End point set to: {self.end_pos}")
+    #         self.pct_plan()
+    #     else:
+    #         self.get_logger().info("♻️ Resetting start/end points...")
+    #         self.start_pos = point[:2]
+    #         self.start_layer = self.planner.height2layer(point[2])
+    #         self.end_pos = None
 
     def pct_plan(self):
 

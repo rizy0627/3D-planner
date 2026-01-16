@@ -71,6 +71,14 @@ class Tomogram(object):
         self.inflated_cost = cp.zeros((self.n_slice_init, self.map_dim_x, self.map_dim_y), dtype=cp.float32)
 
     def initMappingEnv(self, center, map_dim_x, map_dim_y, n_slice_init, slice_h0):
+        # self.center = cp.array(center, dtype=cp.float32)
+        # Use numpy first then move to cupy if needed, or handle memory more gracefully
+        # But here it's just a small array. The error happened here? 
+        # Wait, the error is OutOfMemory allocating 512 bytes. That means GPU is FULL.
+        # It's likely previous processes didn't release memory or the map is too big.
+        # Let's try to free memory pool before allocation.
+        mempool = cp.get_default_memory_pool()
+        mempool.free_all_blocks()
         self.center = cp.array(center, dtype=cp.float32)
         self.map_dim_x = int(map_dim_x)
         self.map_dim_y = int(map_dim_y)
