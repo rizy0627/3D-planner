@@ -3,6 +3,8 @@
 *.ply
 *.npy
 *.so
+*.pcd
+*.pickle
 
 # __pycache__/
 build/

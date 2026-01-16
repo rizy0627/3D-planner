@@ -1,9 +1,0 @@
-*.stl
-*.obj
-*.ply
-*.npy
-*.so
-
-# __pycache__/
-build/
-install/
