@@ -112,48 +112,100 @@ class Tomography(Node):
 
         return points
         
-    def process(self, points):        
-        t_map = 0.0
-        t_trav = 0.0
-        t_simp = 0.0
-        t_all = 0.0
-        n_repeat = 10
-
-        """ 
-        GPU time benchmark, where CUDA events are synchronized for correct time measurement.
-        The function is repeatedly run for n_repeat times to calculate the average processing time of each modules.
-        The time of the first warm-up run is excluded to reduce timing fluctuation and exclude the overhead in initial invocations.
-        See https://docs.cupy.dev/en/stable/user_guide/performance.html for more details
-        """
-        for i in range(n_repeat + 1):
-            t_start = time.time()
-            layers_t, trav_grad_x, trav_grad_y, layers_g, layers_c, t_gpu = self.tomogram.point2map(points)
-
-            if i > 0:
-                t_map += t_gpu['t_map']
-                t_trav += t_gpu['t_trav']
-                t_simp += t_gpu['t_simp']
-                t_all += (time.time() - t_start) * 1e3
-
-        self.get_logger().info(f"Num slices simp: {layers_g.shape[0]}")
-        self.get_logger().info(f"Num repeats (for benchmarking only): {n_repeat}")
-        self.get_logger().info(f" -- avg t_map  (ms): {t_map / n_repeat}")
-        self.get_logger().info(f" -- avg t_trav (ms): {t_trav / n_repeat}")
-        self.get_logger().info(f" -- avg t_simp (ms): {t_simp / n_repeat}")
-        self.get_logger().info(f" -- avg t_all  (ms): {t_all / n_repeat}")
-
-        self.n_slice = layers_g.shape[0]
-        
+    def process(self, points):
         assert self.pcd_file is not None
         map_file = os.path.splitext(self.pcd_file)[0]
+        file_path = self.export_dir + map_file + '.pickle'
+        
+        loaded = False
+        
+        if os.path.exists(file_path):
+            self.get_logger().info(f"Found existing tomogram file: {file_path}")
+            try:
+                with open(file_path, 'rb') as handle:
+                    data_dict = pickle.load(handle)
+                    
+                # Check parameters
+                cache_res = data_dict['resolution']
+                cache_center = data_dict['center']
+                cache_h0 = data_dict['slice_h0']
+                cache_dh = data_dict['slice_dh']
+                
+                if (np.isclose(cache_res, self.resolution) and
+                    np.allclose(cache_center, self.center, atol=1e-3) and
+                    np.isclose(cache_h0, self.slice_h0, atol=1e-3) and
+                    np.isclose(cache_dh, self.slice_dh, atol=1e-3)):
+                    
+                    self.get_logger().info("Parameters match. Loading cached tomogram...")
+                    tomogram = data_dict['data'].astype(np.float32)
+                    
+                    layers_t = tomogram[0]
+                    trav_grad_x = tomogram[1]
+                    trav_grad_y = tomogram[2]
+                    layers_g = tomogram[3]
+                    layers_c = tomogram[4]
+                    loaded = True
+                else:
+                    self.get_logger().warn("Parameters mismatch. Reprocessing...")
+                    self.get_logger().info(f"Cache: res={cache_res}, center={cache_center}, h0={cache_h0}, dh={cache_dh}")
+                    self.get_logger().info(f"Current: res={self.resolution}, center={self.center}, h0={self.slice_h0}, dh={self.slice_dh}")
+                    
+            except Exception as e:
+                self.get_logger().warn(f"Error loading cache: {e}. Reprocessing...")
 
-        self.exportTomogram(np.stack((layers_t, trav_grad_x, trav_grad_y, layers_g, layers_c)), map_file)
+        if not loaded:
+            t_map = 0.0
+            t_trav = 0.0
+            t_simp = 0.0
+            t_all = 0.0
+            n_repeat = 10
+
+            """ 
+            GPU time benchmark, where CUDA events are synchronized for correct time measurement.
+            The function is repeatedly run for n_repeat times to calculate the average processing time of each modules.
+            The time of the first warm-up run is excluded to reduce timing fluctuation and exclude the overhead in initial invocations.
+            See https://docs.cupy.dev/en/stable/user_guide/performance.html for more details
+            """
+            for i in range(n_repeat + 1):
+                t_start = time.time()
+                layers_t, trav_grad_x, trav_grad_y, layers_g, layers_c, t_gpu = self.tomogram.point2map(points)
+
+                if i > 0:
+                    t_map += t_gpu['t_map']
+                    t_trav += t_gpu['t_trav']
+                    t_simp += t_gpu['t_simp']
+                    t_all += (time.time() - t_start) * 1e3
+
+            self.get_logger().info(f"Num slices simp: {layers_g.shape[0]}")
+            self.get_logger().info(f"Num repeats (for benchmarking only): {n_repeat}")
+            self.get_logger().info(f" -- avg t_map  (ms): {t_map / n_repeat}")
+            self.get_logger().info(f" -- avg t_trav (ms): {t_trav / n_repeat}")
+            self.get_logger().info(f" -- avg t_simp (ms): {t_simp / n_repeat}")
+            self.get_logger().info(f" -- avg t_all  (ms): {t_all / n_repeat}")
+            
+            self.exportTomogram(np.stack((layers_t, trav_grad_x, trav_grad_y, layers_g, layers_c)), map_file)
+
+        self.n_slice = layers_g.shape[0]
 
         self.initROS()
-        self.publishPoints(points)
-        self.publishLayers(self.layer_G_pub_list, layers_g, layers_t)
-        self.publishLayers(self.layer_C_pub_list, layers_c, None)
-        self.publishTomogram(layers_g, layers_t)
+        
+        # Publish map and layers periodically
+        self.points = points
+        self.layers_g = layers_g
+        self.layers_t = layers_t
+        self.layers_c = layers_c
+        
+        # Publish once immediately
+        self.publish_all()
+        
+        # Create timer for periodic publishing (e.g., every 2 seconds)
+        self.timer = self.create_timer(2.0, self.publish_all)
+
+    def publish_all(self):
+        self.publishPoints(self.points)
+        self.publishLayers(self.layer_G_pub_list, self.layers_g, self.layers_t)
+        self.publishLayers(self.layer_C_pub_list, self.layers_c, None)
+        self.publishTomogram(self.layers_g, self.layers_t)
 
     def exportTomogram(self, tomogram, map_file):        
         data_dict = {

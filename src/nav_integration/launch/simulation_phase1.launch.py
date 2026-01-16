@@ -1,6 +1,6 @@
 import os
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, OpaqueFunction
+from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, OpaqueFunction, ExecuteProcess
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
@@ -67,7 +67,24 @@ def launch_setup(context, *args, **kwargs):
         parameters=[{'speed': LaunchConfiguration('speed')}]
     )
     
-    return [bringup_map_launch, run_pct_launch, path_follower_node]
+    # 4. Start Tomography
+    # We need to run the tomography node to publish tomogram topics
+    # Similar to run_pct_launch, we execute the script directly
+    
+    tomography_script_path = '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/PCT_planner_re/tomography/scripts/tomography.py'
+    
+    env = os.environ.copy()
+    
+    tomography_cmd = ExecuteProcess(
+        cmd=['python3', tomography_script_path, 
+             '--scene', scene_name_pre, 
+             '--step_max', step_max],
+        cwd='/home/rizy/planner/3d-navi/3d-navi-ros2_v1/PCT_planner_re/tomography/scripts', # Important for relative imports
+        output='screen',
+        env=env
+    )
+    
+    return [bringup_map_launch, run_pct_launch, path_follower_node, tomography_cmd]
 
 def generate_launch_description():
     # Arguments

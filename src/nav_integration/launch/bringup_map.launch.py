@@ -48,7 +48,7 @@ def generate_launch_description():
         parameters=[{'pcd_file': pcd_file}]
     )
     
-    rviz_config_file = os.path.join(pkg_share, 'rviz', 'nav.rviz')
+    rviz_config_file = os.path.join(pkg_share, 'rviz', 'nav_v2.rviz')
     # If file doesn't exist, rviz might complain or start empty.
     # Since I failed to copy it, I should create a minimal one or just launch without config if missing.
     # But I will try to use the one I referenced in the copy command.
