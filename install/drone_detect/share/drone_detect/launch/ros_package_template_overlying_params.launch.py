@@ -1,1 +1,0 @@
-/home/rizy/planner/3d-navi/3d-navi-ros2_v1/src/planner/drone_detect/launch/ros_package_template_overlying_params.launch.py

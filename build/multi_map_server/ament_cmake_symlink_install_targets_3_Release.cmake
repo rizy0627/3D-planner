@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/multi_map_server/multi_map_visualization" "TARGETS" "multi_map_visualization" "DESTINATION" "lib/multi_map_server")

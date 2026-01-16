@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/multi_map_server/rosidl_generator_py/multi_map_server/multi_map_server_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "multi_map_server__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/multi_map_server")

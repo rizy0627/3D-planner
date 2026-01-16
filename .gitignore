@@ -6,6 +6,11 @@
 *.pcd
 *.pickle
 
-# __pycache__/
-build/
-install/
+/build/
+/install/
+/log/
+
+**/__pycache__/
+**/build/
+**/install/
+**/log/

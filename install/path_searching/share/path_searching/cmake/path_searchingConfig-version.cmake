@@ -1,1 +1,0 @@
-/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/path_searching/ament_cmake_core/path_searchingConfig-version.cmake

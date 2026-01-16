@@ -1,1 +1,0 @@
-/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/quadrotor_msgs/rosidl_generator_py/quadrotor_msgs/msg/_lqr_trajectory.py

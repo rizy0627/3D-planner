@@ -1,7 +1,0 @@
-CMake Warning:
-  Manually-specified variables were not used by the project:
-
-    Python3_EXECUTABLE
-    fmt_DIR
-
-

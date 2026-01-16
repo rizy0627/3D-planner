@@ -1,2 +1,0 @@
-Invoking command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/planning_core': CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake --build /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/planning_core -- -j32 -l32
-Invoked command in '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/planning_core' returned '0': CONDA_PROMPT_MODIFIER=(myenv) /usr/bin/cmake --build /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/planning_core -- -j32 -l32
