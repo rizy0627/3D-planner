@@ -1,0 +1,39 @@
+running develop
+Removing /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/lib/python3.10/site-packages/nav-integration.egg-link (link to .)
+running egg_info
+writing ../../build/nav_integration/nav_integration.egg-info/PKG-INFO
+writing dependency_links to ../../build/nav_integration/nav_integration.egg-info/dependency_links.txt
+writing entry points to ../../build/nav_integration/nav_integration.egg-info/entry_points.txt
+writing requirements to ../../build/nav_integration/nav_integration.egg-info/requires.txt
+writing top-level names to ../../build/nav_integration/nav_integration.egg-info/top_level.txt
+reading manifest file '../../build/nav_integration/nav_integration.egg-info/SOURCES.txt'
+writing manifest file '../../build/nav_integration/nav_integration.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/nav_integration/build/lib/nav_integration
+copying nav_integration/__init__.py -> /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/nav_integration/build/lib/nav_integration
+copying nav_integration/map_server.py -> /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/nav_integration/build/lib/nav_integration
+copying nav_integration/simple_path_follower.py -> /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/nav_integration/build/lib/nav_integration
+running install
+running install_lib
+creating /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/lib/python3.10/site-packages/nav_integration
+copying /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/nav_integration/build/lib/nav_integration/__init__.py -> /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/lib/python3.10/site-packages/nav_integration
+copying /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/nav_integration/build/lib/nav_integration/map_server.py -> /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/lib/python3.10/site-packages/nav_integration
+copying /home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/nav_integration/build/lib/nav_integration/simple_path_follower.py -> /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/lib/python3.10/site-packages/nav_integration
+byte-compiling /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/lib/python3.10/site-packages/nav_integration/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/lib/python3.10/site-packages/nav_integration/map_server.py to map_server.cpython-310.pyc
+byte-compiling /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/lib/python3.10/site-packages/nav_integration/simple_path_follower.py to simple_path_follower.cpython-310.pyc
+running install_data
+copying resource/nav_integration -> /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/share/ament_index/resource_index/packages
+copying package.xml -> /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/share/nav_integration
+copying launch/run_pct.launch.py -> /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/share/nav_integration/launch
+copying launch/simulation_phase1.launch.py -> /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/share/nav_integration/launch
+copying launch/bringup_map.launch.py -> /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/share/nav_integration/launch
+copying urdf/robot.urdf -> /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/share/nav_integration/urdf
+copying rviz/nav.rviz -> /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/share/nav_integration/rviz
+running install_egg_info
+Copying ../../build/nav_integration/nav_integration.egg-info to /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/lib/python3.10/site-packages/nav_integration-0.0.0-py3.10.egg-info
+running install_scripts
+Installing map_server script to /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/lib/nav_integration
+Installing simple_path_follower script to /home/rizy/planner/3d-navi/3d-navi-ros2_v1/install/nav_integration/lib/nav_integration
+writing list of installed files to '/home/rizy/planner/3d-navi/3d-navi-ros2_v1/build/nav_integration/install.log'

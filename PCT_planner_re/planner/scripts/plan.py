@@ -72,7 +72,7 @@ class PCTPlanner(Node):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--scene', type=str, default='Spiral', help='Name of the scene. Available: [\'Spiral\', \'Building\', \'Plaza\', \'Map\']')
+    parser.add_argument('--scene', type=str, default='Spiral', help='Name of the scene. Available: [\'Spiral\', \'Building\', \'Plaza\', \'Map\', \'Company\']')
     parser.add_argument('--robot_height', type=float, default=0.05, help='Height of the robot')
     parser.add_argument('--step_max', type=float, default=0.2, help='Maximum step size')
     args = parser.parse_args()
@@ -92,6 +92,8 @@ if __name__ == '__main__':
             tomo_file = 'plaza3_10'
         case "Map":
             tomo_file = "map"
+        case "Company":
+            tomo_file = "dense_full_map"
         case _:
             raise ValueError('Invalid scene name')
 

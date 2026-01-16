@@ -2,10 +2,8 @@
 *.obj
 *.ply
 *.npy
-*.pyc
-*.pickle
 *.so
 
-__pycache__/
+# __pycache__/
 build/
 install/

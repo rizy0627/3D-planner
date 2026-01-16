@@ -1,12 +1,9 @@
 *.stl
 *.obj
 *.ply
-*.pcd
 *.npy
-*.pyc
-*.pickle
 *.so
 
-__pycache__/
+# __pycache__/
 build/
 install/

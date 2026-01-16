@@ -22,7 +22,8 @@ def launch_setup(context, *args, **kwargs):
         'Building': 'building2_9.pcd',
         'Building2': 'building2_10.pcd',
         'Plaza': 'plaza3_10.pcd',
-        'Map': 'map.pcd'
+        'Map': 'map.pcd',
+        'Company': 'dense_full_map.pcd'
     }
     
     pcd_filename = scene_map.get(scene_name_pre, 'building2_9.pcd') # Default fallback
@@ -73,7 +74,7 @@ def generate_launch_description():
     scene_arg = DeclareLaunchArgument(
         'scene',
         default_value='Building',
-        description='Name of the scene (Spiral, Building, Building2, Plaza, Map)'
+        description='Name of the scene (Spiral, Building, Building2, Plaza, Map, Company)'
     )
     
     speed_arg = DeclareLaunchArgument(

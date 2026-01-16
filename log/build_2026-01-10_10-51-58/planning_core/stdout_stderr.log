@@ -1,0 +1,9 @@
+[  8%] Built target a_star_search
+[  8%] Built target map_manager
+[ 45%] Built target common_smoothing
+[ 54%] Built target a_star
+[ 54%] Built target py_map_manager
+[ 86%] Built target gpmp_optimizer
+[ 91%] Built target ele_planner_lib
+[ 95%] Built target traj_opt
+[100%] Built target ele_planner

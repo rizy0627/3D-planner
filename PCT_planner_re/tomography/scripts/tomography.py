@@ -239,7 +239,7 @@ if __name__ == '__main__':
 
     rclpy.init()
     parser = argparse.ArgumentParser()
-    parser.add_argument('--scene', type=str, help="Scene name: ['Spiral', 'Building', 'Building2', 'Plaza', 'Map']")
+    parser.add_argument('--scene', type=str, help="Scene name: ['Spiral', 'Building', 'Building2', 'Plaza', 'Map', 'Company']")
     parser.add_argument("--step_max", type=float, default=0.2, help="Maximum step size")
     args = parser.parse_args()
 
