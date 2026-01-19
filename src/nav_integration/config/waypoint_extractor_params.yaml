@@ -1,0 +1,9 @@
+waypoint_extractor:
+  ros__parameters:
+    min_spacing: 2.0          # 最小航路点间距(m) # 如果航路点太少，降低最小间距
+    angle_threshold_deg: 30.0 # 拐角角度阈值(度)
+    pitch_threshold_deg: 15.0 # 坡度变化阈值(度)
+    corner_min_distance: 0.3  # 拐角点的最小添加距离(m)  # 如果拐角处仍无航路点，降低距离阈值
+    lookahead: 5              # 曲率检测前视野(点数) # 如果拐角检测不准确，增加前视野：
+    z_change_threshold: 0.5   # 高度变化阈值 - 检测楼梯(m) # 如果楼梯前仍无航路点，降低高度阈值
+    visualize_raw_points: true

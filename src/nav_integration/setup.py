@@ -28,6 +28,7 @@ setup(
         'console_scripts': [
             'map_server = nav_integration.map_server:main',
             'simple_path_follower = nav_integration.simple_path_follower:main',
+            'waypoint_extractor = nav_integration.waypoint_extractor:main',
         ],
     },
 )
